@@ -1,0 +1,13 @@
+local tbl = 
+{
+	inheritedProfiles = 
+	{
+		"anyone\\savage2\\p6s",
+	},
+	mapID = 1084,
+	version = 1,
+}
+
+
+
+return tbl

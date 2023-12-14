@@ -1,0 +1,912 @@
+local tbl = 
+{
+	
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				name = "DRK Rampart",
+				timelineIndex = 1,
+				uuid = "93cdaa72-d9eb-917f-8b03-9ac76250ab21",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				name = "DRK Dark Missionary",
+				timelineIndex = 1,
+				uuid = "46d452af-ae45-ac50-b394-e0520e74defc",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Oblation",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				name = "DRK Oblation",
+				timelineIndex = 1,
+				uuid = "67fb0dc0-2932-c92b-ae9b-4526839bd92d",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				name = "DRK Reprisal",
+				timelineIndex = 1,
+				timerOffset = 5,
+				uuid = "94418b9f-bebf-9b4d-8501-046fb71573ce",
+				version = 2,
+			},
+		},
+	},
+	
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 10,
+				name = "DRK Dark Mind",
+				timelineIndex = 2,
+				timerOffset = -7,
+				uuid = "4e16916b-1bbd-f087-bd3a-e7e7ee230ac9",
+				version = 2,
+			},
+		},
+	}, 
+	[11] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 100,
+				name = "DRK Shadow Wall",
+				timelineIndex = 11,
+				timerOffset = -15,
+				uuid = "505cc701-9ffd-f159-acbe-71de1ede7047",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 100,
+				name = "DRK TBN",
+				timelineIndex = 11,
+				timerOffset = -7,
+				uuid = "aa9e9eab-7811-6f51-94ef-c88a753be1f1",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 100,
+				name = "DRK Dark Mind",
+				timelineIndex = 11,
+				timerOffset = -10,
+				uuid = "7d0f994c-34a9-e119-842e-ae5d624038e4",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Oblation",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 100,
+				name = "DRK Oblation",
+				timelineIndex = 11,
+				timerOffset = -10,
+				uuid = "ae07ea15-72a8-46be-9926-9ede3c47e655",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 100,
+				name = "DRK Reprisal",
+				timelineIndex = 11,
+				timerOffset = -10,
+				uuid = "6ca4d92e-4efc-d5cd-bc22-be6dedaf654c",
+				version = 2,
+			},
+		},
+	},
+	[15] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 140,
+				name = "DRK Rampart",
+				timelineIndex = 15,
+				uuid = "24065795-997c-9dac-8690-bb0d0e703454",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 140,
+				name = "DRK Dark Missionary",
+				timelineIndex = 15,
+				uuid = "3ec13b8d-ddf8-dfc9-85c0-b886d30a2b8e",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 140,
+				name = "DRK Reprisal",
+				timelineIndex = 15,
+				timerOffset = -5,
+				uuid = "3f47a09d-6bf1-e67c-9a23-6ddbc8492349",
+				version = 2,
+			},
+		},
+	},
+	[16] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 150,
+				name = "DRK TBN",
+				timelineIndex = 16,
+				uuid = "2c31da8a-cdbb-8962-97be-03f946a601b6",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Oblation",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 150,
+				name = "DRK Oblation",
+				timelineIndex = 16,
+				timerOffset = -5,
+				uuid = "fe9e3ae5-4867-2cdc-a65a-12ba7cf505cb",
+				version = 2,
+			},
+		},
+	},
+	[17] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 160,
+				name = "DRK Dark Mind",
+				timelineIndex = 17,
+				timerOffset = -10,
+				uuid = "6df422b8-0744-4425-9dec-dd21c78f2c6c",
+				version = 2,
+			},
+		},
+	},
+	[34] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 330,
+				name = "DRK Rampart",
+				timelineIndex = 34,
+				uuid = "4318789c-0200-b354-9afe-36b189f4aba3",
+				version = 2,
+			},
+		},
+	},
+	[35] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 340,
+				name = "DRK Dark Missionary",
+				timelineIndex = 35,
+				timerOffset = 1,
+				uuid = "cd0fb4c1-b445-b844-b67c-19def21d2585",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 340,
+				name = "DRK Reprisal",
+				timelineIndex = 35,
+				uuid = "5b3233c2-d088-026e-832c-8f360d7d09f4",
+				version = 2,
+			},
+		},
+	},
+	[36] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 350,
+				name = "DRK TBN",
+				timelineIndex = 36,
+				timerOffset = -7,
+				uuid = "2eae7cf8-3328-3de0-adc5-57521ac046cc",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Oblation",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 350,
+				name = "DRK Oblation",
+				timelineIndex = 36,
+				timerOffset = -10,
+				uuid = "bfd48d5c-6418-f1d7-831e-da9f910093d4",
+				version = 2,
+			},
+		},
+	},
+	[39] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 380,
+				name = "DRK TBN",
+				timelineIndex = 39,
+				uuid = "3ac71042-da2b-b2ff-8969-6122097f6b26",
+				version = 2,
+			},
+		},
+	},
+	[40] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 390,
+				name = "DRK Shadow Wall",
+				timelineIndex = 40,
+				timerOffset = -15,
+				uuid = "f95caf1f-df83-13c8-8ba2-a2d0df397ad0",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 390,
+				name = "DRK Dark Mind",
+				timelineIndex = 40,
+				timerOffset = -10,
+				uuid = "19d9912a-ba4b-c042-8417-ddb0dcbc0c3b",
+				version = 2,
+			},
+		},
+	},
+	[47] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 460,
+				name = "DRK Rampart",
+				timelineIndex = 47,
+				timerOffset = 3,
+				uuid = "b26a4d1f-0fc3-06a0-b716-dd644d412e23",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 460,
+				name = "DRK Dark Missionary",
+				timelineIndex = 47,
+				uuid = "4e6993a0-95b0-a606-b624-37a804ddc2b0",
+				version = 2,
+			},
+		},
+	},
+	[48] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 470,
+				name = "DRK TBN",
+				timelineIndex = 48,
+				uuid = "0448ea4e-1dc9-f9b9-a7e3-05189bda6505",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 470,
+				name = "DRK Dark Mind",
+				timelineIndex = 48,
+				timerOffset = -5,
+				uuid = "811bf532-d387-891c-b880-e46a9027df59",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Oblation",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 470,
+				name = "DRK Oblation",
+				timelineIndex = 48,
+				timerOffset = -7,
+				uuid = "2af78660-2c5d-0cf2-a0ba-2df6319a2878",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "a21139a7-855c-12d4-8277-65f12e8ade1b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 470,
+				name = "DRK Reprisal",
+				timelineIndex = 48,
+				timerOffset = -5,
+				uuid = "3f00bd43-4fa2-a3a6-9e58-c504830f035a",
+				version = 2,
+			},
+		},
+	},
+	inheritedProfiles = 
+	{
+		"store\\anyone\\extremes\\rubicante",
+	},
+	mapID = 1096,
+	version = 1,
+}
+
+
+
+return tbl

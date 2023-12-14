@@ -1,0 +1,2667 @@
+local tbl = 
+{
+	[2] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
+							uuid = "4447b72e-ca88-4680-9ce7-f6fcd33a85e1",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "c896fa3f-4865-0779-a819-ae0470a6d6c3",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 10,
+				name = "Reprisal",
+				timelineIndex = 2,
+				timerOffset = -7,
+				uuid = "dba6ea72-bd77-8a90-b056-67d9b7789d97",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"afa64a0c-8659-57e4-9de2-66b006512fd4",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "c966e0b3-b301-e735-b906-d5a266255880",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 860,
+							dequeueIfLuaFalse = true,
+							name = "No Dismantle",
+							uuid = "afa64a0c-8659-57e4-9de2-66b006512fd4",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 10,
+				name = "Tactician MCH",
+				timeRange = true,
+				timelineIndex = 2,
+				timerEndOffset = -2,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14,
+				uuid = "06b510ea-073e-1c55-aea2-65a5655f24f4",
+				version = 2,
+			},
+		},
+	},
+	[4] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"afa64a0c-8659-57e4-9de2-66b006512fd4",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "c966e0b3-b301-e735-b906-d5a266255880",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 860,
+							dequeueIfLuaFalse = true,
+							name = "No Dismantle",
+							uuid = "afa64a0c-8659-57e4-9de2-66b006512fd4",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 30,
+				name = "Tactician MCH",
+				timeRange = true,
+				timelineIndex = 4,
+				timerEndOffset = -2,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -13,
+				uuid = "9b15704e-9996-0d40-92b6-a32e06a370f2",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "374ae86d-f5a3-f85b-97f9-cd6930008542",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1951,
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "No Tactician",
+							uuid = "bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 30,
+				name = "Dismantle MCH",
+				timeRange = true,
+				timelineIndex = 4,
+				timerEndOffset = -2,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -8,
+				uuid = "59026f37-9b88-4b2f-b01e-502a0ebc00c8",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+	},
+	[6] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "4bfcb8ae-f619-a795-be0b-e63a7ed2b48e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
+							uuid = "e0546146-ae4f-258e-b1d8-efdd6f181be8",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 50,
+				name = "Rampart",
+				timelineIndex = 6,
+				timerOffset = -19,
+				uuid = "04718bef-b175-37a2-8c7c-0573e752b10b",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "e4168fe5-f93e-cbac-ac0f-e50c7e09a109",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							uuid = "c40002f6-841d-5cfa-bba2-0f625eb8113c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 50,
+				name = "Shadow Wall",
+				timelineIndex = 6,
+				timerOffset = -14,
+				uuid = "4628463e-2c31-31ec-ac82-2b3235ce2d48",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "ab702bed-4f40-5b4d-bb56-5f37a0d4ce86",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "3fdcbc14-0236-cc97-98c2-92efed17c455",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 50,
+				name = "TBN",
+				timelineIndex = 6,
+				timerOffset = -6,
+				uuid = "a8122088-c3a2-ef89-b983-78fd7587199d",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "10feac12-ee49-1dd4-9b15-5d024df44198",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
+							uuid = "41328340-1db7-f9f7-83ad-8b2317b2fddc",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 50,
+				name = "Dark Mind",
+				timelineIndex = 6,
+				timerOffset = -9,
+				uuid = "47e5f991-d39e-f3fc-9cae-67ded8c73852",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "a1bddcf6-44e6-88c2-b965-c0237336b95f",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationOT",
+							uuid = "a07c5bb5-b168-1e3d-aa79-19ec719bf627",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 50,
+				name = "Obla",
+				timelineIndex = 6,
+				timerOffset = -10,
+				uuid = "87e2fa1d-e382-25a5-ba93-ff239d754af1",
+				version = 2,
+			},
+		},
+	},
+	[8] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"afa64a0c-8659-57e4-9de2-66b006512fd4",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "c966e0b3-b301-e735-b906-d5a266255880",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 860,
+							dequeueIfLuaFalse = true,
+							name = "No Dismantle",
+							uuid = "afa64a0c-8659-57e4-9de2-66b006512fd4",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 70,
+				name = "Tactician MCH",
+				timeRange = true,
+				timelineIndex = 8,
+				timerEndOffset = -2,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14,
+				uuid = "b8f808c5-77b1-4a5e-b04d-121fdc4d6167",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "374ae86d-f5a3-f85b-97f9-cd6930008542",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1951,
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "No Tactician",
+							uuid = "bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 70,
+				name = "Dismantle MCH",
+				timeRange = true,
+				timelineIndex = 8,
+				timerEndOffset = -2,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9,
+				uuid = "cf66be58-9f89-e7a1-b970-b466ee4340f8",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+	},
+	[9] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
+							uuid = "4447b72e-ca88-4680-9ce7-f6fcd33a85e1",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "c896fa3f-4865-0779-a819-ae0470a6d6c3",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 80,
+				name = "Reprisal",
+				timelineIndex = 9,
+				timerOffset = -9,
+				uuid = "1d1adb14-8cdc-aa21-9010-57ba07fe1f6b",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"afa64a0c-8659-57e4-9de2-66b006512fd4",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "c966e0b3-b301-e735-b906-d5a266255880",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 860,
+							dequeueIfLuaFalse = true,
+							name = "No Dismantle",
+							uuid = "afa64a0c-8659-57e4-9de2-66b006512fd4",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 80,
+				name = "Tactician MCH",
+				timeRange = true,
+				timelineIndex = 9,
+				timerEndOffset = -2,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14,
+				uuid = "40af8cad-4199-b722-9371-84b97fe79a2f",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "374ae86d-f5a3-f85b-97f9-cd6930008542",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1951,
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "No Tactician",
+							uuid = "bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 80,
+				name = "Dismantle MCH",
+				timeRange = true,
+				timelineIndex = 9,
+				timerEndOffset = -2,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9,
+				uuid = "79be0ec3-25c2-fdb5-b642-0b508a26b4f6",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+	},
+	[11] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"afa64a0c-8659-57e4-9de2-66b006512fd4",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "c966e0b3-b301-e735-b906-d5a266255880",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 860,
+							dequeueIfLuaFalse = true,
+							name = "No Dismantle",
+							uuid = "afa64a0c-8659-57e4-9de2-66b006512fd4",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 100,
+				name = "Tactician MCH",
+				timeRange = true,
+				timelineIndex = 11,
+				timerEndOffset = -2,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14,
+				uuid = "ce736c8e-50fd-1bc9-b86b-4833e668dc2e",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "374ae86d-f5a3-f85b-97f9-cd6930008542",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1951,
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "No Tactician",
+							uuid = "bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 100,
+				name = "Dismantle MCH",
+				timeRange = true,
+				timelineIndex = 11,
+				timerEndOffset = -2,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9,
+				uuid = "c1a418df-a720-c29b-b277-3b4f8fdc7e19",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+	},
+	[13] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"afa64a0c-8659-57e4-9de2-66b006512fd4",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "c966e0b3-b301-e735-b906-d5a266255880",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 860,
+							dequeueIfLuaFalse = true,
+							name = "No Dismantle",
+							uuid = "afa64a0c-8659-57e4-9de2-66b006512fd4",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 120,
+				name = "Tactician MCH",
+				timeRange = true,
+				timelineIndex = 13,
+				timerEndOffset = -2,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14,
+				uuid = "958022df-07e5-148f-9652-1b322da7f2e3",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "374ae86d-f5a3-f85b-97f9-cd6930008542",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1951,
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "No Tactician",
+							uuid = "bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 120,
+				name = "Dismantle MCH",
+				timeRange = true,
+				timelineIndex = 13,
+				timerEndOffset = -2,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9,
+				uuid = "ab1b5146-c591-d2d8-b135-d300e149e43c",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+	},
+	[15] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "4bfcb8ae-f619-a795-be0b-e63a7ed2b48e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
+							uuid = "e0546146-ae4f-258e-b1d8-efdd6f181be8",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 140,
+				name = "Rampart",
+				timelineIndex = 15,
+				timerOffset = -15,
+				uuid = "2c446744-c772-9912-9567-3bcd1e6f4863",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "e4168fe5-f93e-cbac-ac0f-e50c7e09a109",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							uuid = "c40002f6-841d-5cfa-bba2-0f625eb8113c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 140,
+				name = "Shadow Wall",
+				timelineIndex = 15,
+				timerOffset = -14,
+				uuid = "44ca3e08-d096-ec6d-96c4-aa0ad0919ec0",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "ab702bed-4f40-5b4d-bb56-5f37a0d4ce86",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "3fdcbc14-0236-cc97-98c2-92efed17c455",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 140,
+				name = "TBN",
+				timelineIndex = 15,
+				timerOffset = -10,
+				uuid = "42efabe7-eb80-21eb-9740-fcc46dbfaa5d",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "10feac12-ee49-1dd4-9b15-5d024df44198",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
+							uuid = "41328340-1db7-f9f7-83ad-8b2317b2fddc",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 140,
+				name = "Dark Mind",
+				timelineIndex = 15,
+				timerOffset = -9,
+				uuid = "88442e99-3e77-35bc-8d2d-cddd04fc1b40",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "a1bddcf6-44e6-88c2-b965-c0237336b95f",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationOT",
+							uuid = "a07c5bb5-b168-1e3d-aa79-19ec719bf627",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 140,
+				name = "Obla",
+				timelineIndex = 15,
+				timerOffset = -10,
+				uuid = "0ab51d2f-5dac-18c7-b9f1-d892aea0bb7d",
+				version = 2,
+			},
+		},
+	},
+	[16] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
+							uuid = "4447b72e-ca88-4680-9ce7-f6fcd33a85e1",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "c896fa3f-4865-0779-a819-ae0470a6d6c3",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 150,
+				name = "Reprisal",
+				timelineIndex = 16,
+				timerOffset = -7,
+				uuid = "6803a8e2-a8b6-f913-ba23-42763fbc4029",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"afa64a0c-8659-57e4-9de2-66b006512fd4",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "c966e0b3-b301-e735-b906-d5a266255880",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 860,
+							dequeueIfLuaFalse = true,
+							name = "No Dismantle",
+							uuid = "afa64a0c-8659-57e4-9de2-66b006512fd4",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 150,
+				name = "Tactician MCH",
+				timeRange = true,
+				timelineIndex = 16,
+				timerEndOffset = -2,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14,
+				uuid = "1e73d6b1-c65e-23cc-b760-30fcbf46db0f",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "374ae86d-f5a3-f85b-97f9-cd6930008542",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1951,
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "No Tactician",
+							uuid = "bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 150,
+				name = "Dismantle MCH",
+				timeRange = true,
+				timelineIndex = 16,
+				timerEndOffset = -2,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9,
+				uuid = "dccc2067-27b5-b011-afbd-2f0ed3be6c09",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+	},
+	[19] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"afa64a0c-8659-57e4-9de2-66b006512fd4",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "c966e0b3-b301-e735-b906-d5a266255880",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 860,
+							dequeueIfLuaFalse = true,
+							name = "No Dismantle",
+							uuid = "afa64a0c-8659-57e4-9de2-66b006512fd4",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 180,
+				name = "Tactician MCH",
+				timeRange = true,
+				timelineIndex = 19,
+				timerEndOffset = -2,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14,
+				uuid = "4e0354b7-a475-2acf-a916-9fac97ddba3a",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "374ae86d-f5a3-f85b-97f9-cd6930008542",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1951,
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "No Tactician",
+							uuid = "bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 180,
+				name = "Dismantle MCH",
+				timeRange = true,
+				timelineIndex = 19,
+				timerEndOffset = -2,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9,
+				uuid = "49de1007-16f8-7d08-8b71-92b254756681",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+	},
+	[20] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "4bfcb8ae-f619-a795-be0b-e63a7ed2b48e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
+							uuid = "e0546146-ae4f-258e-b1d8-efdd6f181be8",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 190,
+				name = "Rampart",
+				timelineIndex = 20,
+				timerOffset = -19,
+				uuid = "dd3aba0c-7b0e-d800-86d3-4aa77669c34c",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "e4168fe5-f93e-cbac-ac0f-e50c7e09a109",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							uuid = "c40002f6-841d-5cfa-bba2-0f625eb8113c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 190,
+				name = "Shadow Wall",
+				timelineIndex = 20,
+				timerOffset = -14,
+				uuid = "3d834eb7-5d6f-f92a-ae9a-21d9df1b45a0",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "ab702bed-4f40-5b4d-bb56-5f37a0d4ce86",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "3fdcbc14-0236-cc97-98c2-92efed17c455",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 190,
+				name = "TBN",
+				timelineIndex = 20,
+				timerOffset = -6,
+				uuid = "8b98bf63-6605-a802-a274-f9697a384f7d",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "10feac12-ee49-1dd4-9b15-5d024df44198",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
+							uuid = "41328340-1db7-f9f7-83ad-8b2317b2fddc",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 190,
+				name = "Dark Mind",
+				timelineIndex = 20,
+				timerOffset = -9,
+				uuid = "986b50e9-5fd3-42dc-b8ae-3f27071ec733",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "a1bddcf6-44e6-88c2-b965-c0237336b95f",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationOT",
+							uuid = "a07c5bb5-b168-1e3d-aa79-19ec719bf627",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 190,
+				name = "Obla",
+				timelineIndex = 20,
+				timerOffset = -10,
+				uuid = "d7223280-da48-a7db-91f7-96bec93a72a3",
+				version = 2,
+			},
+		},
+	},
+	[23] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "374ae86d-f5a3-f85b-97f9-cd6930008542",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1951,
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "No Tactician",
+							uuid = "bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 220,
+				name = "Dismantle MCH",
+				timeRange = true,
+				timelineIndex = 23,
+				timerEndOffset = -2,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9,
+				uuid = "627107fb-bd1f-29fa-af32-0022969f0a2f",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				name = "Call CW/CCW",
+				uuid = "be50f340-c1f0-6cf8-8428-d5d1012dc0b8",
+				version = 2,
+			},
+			inheritedObjectUUID = "34dc953a-5a58-d160-9cd1-1b2608c51200",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
+							uuid = "4447b72e-ca88-4680-9ce7-f6fcd33a85e1",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "c896fa3f-4865-0779-a819-ae0470a6d6c3",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 220,
+				name = "Reprisal",
+				timelineIndex = 23,
+				timerOffset = -7,
+				uuid = "a0ad5e2a-168a-4362-bfa5-17b6b8dddc4e",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"afa64a0c-8659-57e4-9de2-66b006512fd4",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "c966e0b3-b301-e735-b906-d5a266255880",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 860,
+							dequeueIfLuaFalse = true,
+							name = "No Dismantle",
+							uuid = "afa64a0c-8659-57e4-9de2-66b006512fd4",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 220,
+				name = "Tactician MCH",
+				timeRange = true,
+				timelineIndex = 23,
+				timerEndOffset = -2,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14,
+				uuid = "0904c895-571b-2976-bf1c-e2c47c92f5ec",
+				version = 2,
+			},
+		},
+	},
+	[29] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"afa64a0c-8659-57e4-9de2-66b006512fd4",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "c966e0b3-b301-e735-b906-d5a266255880",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 860,
+							dequeueIfLuaFalse = true,
+							name = "No Dismantle",
+							uuid = "afa64a0c-8659-57e4-9de2-66b006512fd4",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 280,
+				name = "Tactician MCH",
+				timeRange = true,
+				timelineIndex = 29,
+				timerEndOffset = -2,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14,
+				uuid = "98cff3a1-d3bd-1486-92cc-120038f99d09",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "374ae86d-f5a3-f85b-97f9-cd6930008542",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1951,
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "No Tactician",
+							uuid = "bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 280,
+				name = "Dismantle MCH",
+				timeRange = true,
+				timelineIndex = 29,
+				timerEndOffset = -2,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9,
+				uuid = "8f8fca0c-ad88-8426-8034-c77d6150a148",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+	},
+	[30] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"afa64a0c-8659-57e4-9de2-66b006512fd4",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "c966e0b3-b301-e735-b906-d5a266255880",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 860,
+							dequeueIfLuaFalse = true,
+							name = "No Dismantle",
+							uuid = "afa64a0c-8659-57e4-9de2-66b006512fd4",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 290,
+				name = "Tactician MCH",
+				timeRange = true,
+				timelineIndex = 30,
+				timerEndOffset = -2,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14,
+				uuid = "b3d3b149-d3a7-dfe7-a220-50dcb0aaba5d",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "374ae86d-f5a3-f85b-97f9-cd6930008542",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1951,
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "No Tactician",
+							uuid = "bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 290,
+				name = "Dismantle MCH",
+				timeRange = true,
+				timelineIndex = 30,
+				timerEndOffset = -2,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9,
+				uuid = "e7357a2b-ad59-d0d7-9d4f-bed42025af5b",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+	},
+	[31] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
+							uuid = "4447b72e-ca88-4680-9ce7-f6fcd33a85e1",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "c896fa3f-4865-0779-a819-ae0470a6d6c3",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 300,
+				name = "Reprisal",
+				timelineIndex = 31,
+				timerOffset = -7,
+				uuid = "e003205e-310a-d74d-a605-50e47c1060c1",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"afa64a0c-8659-57e4-9de2-66b006512fd4",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "c966e0b3-b301-e735-b906-d5a266255880",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 860,
+							dequeueIfLuaFalse = true,
+							name = "No Dismantle",
+							uuid = "afa64a0c-8659-57e4-9de2-66b006512fd4",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 300,
+				name = "Tactician MCH",
+				timeRange = true,
+				timelineIndex = 31,
+				timerEndOffset = -2,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14,
+				uuid = "cc5c8f2b-f2b0-d9c2-9054-bc1becf175bb",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "374ae86d-f5a3-f85b-97f9-cd6930008542",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1951,
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "No Tactician",
+							uuid = "bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 300,
+				name = "Dismantle MCH",
+				timeRange = true,
+				timelineIndex = 31,
+				timerEndOffset = -2,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9,
+				uuid = "f168e92e-1e56-8bf0-a2cf-2627eedec86e",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+	},
+	[34] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"afa64a0c-8659-57e4-9de2-66b006512fd4",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "c966e0b3-b301-e735-b906-d5a266255880",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 860,
+							dequeueIfLuaFalse = true,
+							name = "No Dismantle",
+							uuid = "afa64a0c-8659-57e4-9de2-66b006512fd4",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 330,
+				name = "Tactician MCH",
+				timeRange = true,
+				timelineIndex = 34,
+				timerEndOffset = -2,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14,
+				uuid = "f5ddecac-bf49-db06-a851-14dff983a0e7",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "374ae86d-f5a3-f85b-97f9-cd6930008542",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1951,
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "No Tactician",
+							uuid = "bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 330,
+				name = "Dismantle MCH",
+				timeRange = true,
+				timelineIndex = 34,
+				timerEndOffset = -2,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9,
+				uuid = "ed59fe9d-9776-73ac-8d93-8df696dab552",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+	},
+	[37] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"afa64a0c-8659-57e4-9de2-66b006512fd4",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "c966e0b3-b301-e735-b906-d5a266255880",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 860,
+							dequeueIfLuaFalse = true,
+							name = "No Dismantle",
+							uuid = "afa64a0c-8659-57e4-9de2-66b006512fd4",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 360,
+				name = "Tactician MCH",
+				timeRange = true,
+				timelineIndex = 37,
+				timerEndOffset = -2,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14,
+				uuid = "9aabd8dc-fb2b-914d-bed5-6f8a699f8337",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "374ae86d-f5a3-f85b-97f9-cd6930008542",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1951,
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "No Tactician",
+							uuid = "bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 360,
+				name = "Dismantle MCH",
+				timeRange = true,
+				timelineIndex = 37,
+				timerEndOffset = -2,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9,
+				uuid = "0546e05e-1e71-b885-b993-6c64e8816d15",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+	},
+	[41] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "4bfcb8ae-f619-a795-be0b-e63a7ed2b48e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
+							uuid = "e0546146-ae4f-258e-b1d8-efdd6f181be8",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 400,
+				name = "Rampart",
+				timelineIndex = 41,
+				timerOffset = -19,
+				uuid = "c93e7ad9-23b5-47f0-8d52-4ec2bcc1d2f8",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "e4168fe5-f93e-cbac-ac0f-e50c7e09a109",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							uuid = "c40002f6-841d-5cfa-bba2-0f625eb8113c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 400,
+				name = "Shadow Wall",
+				timelineIndex = 41,
+				timerOffset = -14,
+				uuid = "6328caff-436b-2378-9cd3-e2a407a9885c",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "ab702bed-4f40-5b4d-bb56-5f37a0d4ce86",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "3fdcbc14-0236-cc97-98c2-92efed17c455",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 400,
+				name = "TBN",
+				timelineIndex = 41,
+				timerOffset = -6,
+				uuid = "3c9cb3e8-7c25-e5fc-a01f-8a90e1b0968a",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "10feac12-ee49-1dd4-9b15-5d024df44198",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
+							uuid = "41328340-1db7-f9f7-83ad-8b2317b2fddc",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 400,
+				name = "Dark Mind",
+				timelineIndex = 41,
+				timerOffset = -9,
+				uuid = "b573c21b-3614-c5ef-a85b-a3bf229c89fa",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "a1bddcf6-44e6-88c2-b965-c0237336b95f",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationOT",
+							uuid = "a07c5bb5-b168-1e3d-aa79-19ec719bf627",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 400,
+				name = "Obla",
+				timelineIndex = 41,
+				timerOffset = -10,
+				uuid = "17fc2bdd-290c-df1d-a33e-3bb67aa066f1",
+				version = 2,
+			},
+		},
+	},
+	[44] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"afa64a0c-8659-57e4-9de2-66b006512fd4",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "c966e0b3-b301-e735-b906-d5a266255880",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 860,
+							dequeueIfLuaFalse = true,
+							name = "No Dismantle",
+							uuid = "afa64a0c-8659-57e4-9de2-66b006512fd4",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 430,
+				name = "Tactician MCH",
+				timeRange = true,
+				timelineIndex = 44,
+				timerEndOffset = -2,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14,
+				uuid = "cca448d2-79af-5fb5-949f-05dafae07a37",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "374ae86d-f5a3-f85b-97f9-cd6930008542",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1951,
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "No Tactician",
+							uuid = "bacc033f-5dcc-8fdc-b441-3891c4b70fe5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 430,
+				name = "Dismantle MCH",
+				timeRange = true,
+				timelineIndex = 44,
+				timerEndOffset = -2,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9,
+				uuid = "3e8917d7-f2c1-e309-ac54-75bbcdf95e92",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+	},
+	inheritedProfiles = 
+	{
+		"anyone\\savage3\\p9s",
+	},
+	mapID = 1148,
+	version = 1,
+}
+
+
+
+return tbl

@@ -1,0 +1,1341 @@
+local tbl = 
+{
+	[9] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "3296c05f-b1f5-b9ac-937e-147f00e5619f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 44.6,
+				name = "Tactician",
+				timelineIndex = 9,
+				timerOffset = -15,
+				uuid = "846165bf-8e1b-546f-aac2-f04bf40db00e",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fcca149e-8c43-079c-9098-3f27aa37afc8",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "8eb59dc2-72a1-225a-8912-6f8bf3d80277",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16889,
+							category = "Self",
+							conditionType = 4,
+							uuid = "fcca149e-8c43-079c-9098-3f27aa37afc8",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				mechanicTime = 44.6,
+				name = "Dismantle",
+				timelineIndex = 9,
+				timerOffset = -9.8999996185303,
+				uuid = "6825f284-5130-3e2b-b486-f37ee9f72810",
+				version = 2,
+			},
+		},
+	},
+	[21] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "3296c05f-b1f5-b9ac-937e-147f00e5619f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 99.7,
+				name = "Tactician",
+				timelineIndex = 21,
+				timerOffset = -15,
+				uuid = "c6ea6bce-4014-75bb-b627-82e66e4ac721",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fcca149e-8c43-079c-9098-3f27aa37afc8",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "8eb59dc2-72a1-225a-8912-6f8bf3d80277",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16889,
+							category = "Self",
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							uuid = "fcca149e-8c43-079c-9098-3f27aa37afc8",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 99.7,
+				name = "Dismantle",
+				timelineIndex = 21,
+				timerOffset = -9.8999996185303,
+				uuid = "dccea137-682e-c258-b84d-9406e69dc821",
+				version = 2,
+			},
+		},
+	},
+	[30] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "3296c05f-b1f5-b9ac-937e-147f00e5619f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 143.1,
+				name = "Tactician",
+				timelineIndex = 30,
+				timerOffset = -15,
+				uuid = "fb9be22c-379e-6111-b0af-167d61faa20c",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fcca149e-8c43-079c-9098-3f27aa37afc8",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "8eb59dc2-72a1-225a-8912-6f8bf3d80277",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16889,
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							uuid = "fcca149e-8c43-079c-9098-3f27aa37afc8",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				mechanicTime = 143.1,
+				name = "Dismantle",
+				timelineIndex = 30,
+				timerOffset = -9.8999996185303,
+				uuid = "60ae9bf9-a70e-9ad2-81ab-dedca9745a81",
+				version = 2,
+			},
+		},
+	},
+	[94] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "3296c05f-b1f5-b9ac-937e-147f00e5619f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 548.5,
+				name = "Tactician",
+				timelineIndex = 94,
+				timerOffset = -15,
+				uuid = "1fbf39b2-8e6d-4f82-962a-4119d115c3b8",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fcca149e-8c43-079c-9098-3f27aa37afc8",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "8eb59dc2-72a1-225a-8912-6f8bf3d80277",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16889,
+							category = "Self",
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							uuid = "fcca149e-8c43-079c-9098-3f27aa37afc8",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 548.5,
+				name = "Dismantle",
+				timelineIndex = 94,
+				timerOffset = -9.8999996185303,
+				uuid = "6a99e26c-b246-7c17-9e77-0bcbd351eb2a",
+				version = 2,
+			},
+		},
+	},
+	[111] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "3296c05f-b1f5-b9ac-937e-147f00e5619f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 600.3,
+				name = "Tactician",
+				timelineIndex = 111,
+				timerOffset = -15,
+				uuid = "89580d95-7540-cac1-b6cd-b9ece88ea49e",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fcca149e-8c43-079c-9098-3f27aa37afc8",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "8eb59dc2-72a1-225a-8912-6f8bf3d80277",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16889,
+							category = "Self",
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							uuid = "fcca149e-8c43-079c-9098-3f27aa37afc8",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 600.3,
+				name = "Dismantle",
+				timelineIndex = 111,
+				timerOffset = -9.8999996185303,
+				uuid = "b7424cd1-02ee-3f9c-949a-c691d74299ac",
+				version = 2,
+			},
+		},
+	},
+	[122] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "3296c05f-b1f5-b9ac-937e-147f00e5619f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 748.5,
+				name = "Tactician",
+				timelineIndex = 122,
+				timerOffset = -15,
+				uuid = "6c5c00e4-2c4e-d0d1-8844-de74e7cfb6d1",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fcca149e-8c43-079c-9098-3f27aa37afc8",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "8eb59dc2-72a1-225a-8912-6f8bf3d80277",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16889,
+							category = "Self",
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							uuid = "fcca149e-8c43-079c-9098-3f27aa37afc8",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 748.5,
+				name = "Dismantle",
+				timelineIndex = 122,
+				timerOffset = -9.8999996185303,
+				uuid = "cb73a546-982b-07bb-8f56-15add09241a4",
+				version = 2,
+			},
+		},
+	},
+	[139] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "3296c05f-b1f5-b9ac-937e-147f00e5619f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 800.3,
+				name = "Tactician",
+				timelineIndex = 139,
+				timerOffset = -15,
+				uuid = "c40a739d-f197-ce97-86d0-45b83bbe1945",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fcca149e-8c43-079c-9098-3f27aa37afc8",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "8eb59dc2-72a1-225a-8912-6f8bf3d80277",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16889,
+							category = "Self",
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							uuid = "fcca149e-8c43-079c-9098-3f27aa37afc8",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 800.3,
+				name = "Dismantle",
+				timelineIndex = 139,
+				timerOffset = -9.8999996185303,
+				uuid = "c59d8708-002e-b0a1-8327-1f17a8236928",
+				version = 2,
+			},
+		},
+	},
+	[146] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "3296c05f-b1f5-b9ac-937e-147f00e5619f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1029.1,
+				name = "Tactician",
+				timelineIndex = 146,
+				timerOffset = -15,
+				uuid = "92ed5003-8ed6-63b2-b615-2374e29b41ca",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fcca149e-8c43-079c-9098-3f27aa37afc8",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "8eb59dc2-72a1-225a-8912-6f8bf3d80277",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16889,
+							category = "Self",
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							uuid = "fcca149e-8c43-079c-9098-3f27aa37afc8",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1029.1,
+				name = "Dismantle",
+				timelineIndex = 146,
+				timerOffset = -9.8999996185303,
+				uuid = "b2e772f1-bccd-5f01-9a82-7798b3a9c4f9",
+				version = 2,
+			},
+		},
+	},
+	[160] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "3296c05f-b1f5-b9ac-937e-147f00e5619f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1082.1,
+				name = "Tactician",
+				timelineIndex = 160,
+				timerOffset = -15,
+				uuid = "a02558d4-d31a-3bf1-818a-850c35c90d17",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fcca149e-8c43-079c-9098-3f27aa37afc8",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "8eb59dc2-72a1-225a-8912-6f8bf3d80277",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16889,
+							category = "Self",
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							uuid = "fcca149e-8c43-079c-9098-3f27aa37afc8",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1082.1,
+				name = "Dismantle",
+				timelineIndex = 160,
+				timerOffset = -9.8999996185303,
+				uuid = "0fceb8f0-21ac-5238-be26-ae6aa24ecdee",
+				version = 2,
+			},
+		},
+	},
+	[237] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "3296c05f-b1f5-b9ac-937e-147f00e5619f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1687.1,
+				name = "Tactician",
+				timelineIndex = 237,
+				timerOffset = -15,
+				uuid = "dad16e37-28cc-68b2-8a4d-32e29c1db212",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fcca149e-8c43-079c-9098-3f27aa37afc8",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "8eb59dc2-72a1-225a-8912-6f8bf3d80277",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16889,
+							category = "Self",
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							uuid = "fcca149e-8c43-079c-9098-3f27aa37afc8",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1687.1,
+				name = "Dismantle",
+				timelineIndex = 237,
+				timerOffset = -9.8999996185303,
+				uuid = "e61932eb-231b-1a8f-b584-7e9f8c75be89",
+				version = 2,
+			},
+		},
+	},
+	[251] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "3296c05f-b1f5-b9ac-937e-147f00e5619f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1838,
+				name = "Tactician",
+				timelineIndex = 251,
+				timerOffset = -15,
+				uuid = "4e47f0b2-48d7-6a11-bc33-da7a027b97a3",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fcca149e-8c43-079c-9098-3f27aa37afc8",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "8eb59dc2-72a1-225a-8912-6f8bf3d80277",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16889,
+							category = "Self",
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							uuid = "fcca149e-8c43-079c-9098-3f27aa37afc8",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1838,
+				name = "Dismantle",
+				timelineIndex = 251,
+				timerOffset = -9.8999996185303,
+				uuid = "7913456c-9794-36a0-9468-9c60ec772295",
+				version = 2,
+			},
+		},
+	},
+	[252] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "3296c05f-b1f5-b9ac-937e-147f00e5619f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1851.2,
+				name = "Tactician",
+				timelineIndex = 252,
+				timerOffset = -15,
+				uuid = "dc128c5f-e2d3-6c32-8d74-9d456080fc54",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fcca149e-8c43-079c-9098-3f27aa37afc8",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "8eb59dc2-72a1-225a-8912-6f8bf3d80277",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16889,
+							category = "Self",
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							uuid = "fcca149e-8c43-079c-9098-3f27aa37afc8",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1851.2,
+				name = "Dismantle",
+				timelineIndex = 252,
+				timerOffset = -9.8999996185303,
+				uuid = "86ade010-f62d-4076-a606-754f97caf654",
+				version = 2,
+			},
+		},
+	},
+	[267] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "3296c05f-b1f5-b9ac-937e-147f00e5619f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1938,
+				name = "Tactician",
+				timelineIndex = 267,
+				timerOffset = -15,
+				uuid = "d89342d6-4d88-5558-ae90-9af539226ed0",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fcca149e-8c43-079c-9098-3f27aa37afc8",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "8eb59dc2-72a1-225a-8912-6f8bf3d80277",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16889,
+							category = "Self",
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							uuid = "fcca149e-8c43-079c-9098-3f27aa37afc8",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1938,
+				name = "Dismantle",
+				timelineIndex = 267,
+				timerOffset = -9.8999996185303,
+				uuid = "7051abe6-4a16-5e7f-8b3f-123b166a42ed",
+				version = 2,
+			},
+		},
+	},
+	[268] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "3296c05f-b1f5-b9ac-937e-147f00e5619f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1951.2,
+				name = "Tactician",
+				timelineIndex = 268,
+				timerOffset = -15,
+				uuid = "2d98c257-e955-0143-890e-5ac428204dd6",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fcca149e-8c43-079c-9098-3f27aa37afc8",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "8eb59dc2-72a1-225a-8912-6f8bf3d80277",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16889,
+							category = "Self",
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							uuid = "fcca149e-8c43-079c-9098-3f27aa37afc8",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1951.2,
+				name = "Dismantle",
+				timelineIndex = 268,
+				timerOffset = -9.8999996185303,
+				uuid = "13bde33e-398d-ae71-bc4c-66b171800600",
+				version = 2,
+			},
+		},
+	},
+	[273] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "3296c05f-b1f5-b9ac-937e-147f00e5619f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 2009.3,
+				name = "Tactician",
+				timelineIndex = 273,
+				timerOffset = -15,
+				uuid = "643461de-3430-9073-9ad1-af70202c76b3",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fcca149e-8c43-079c-9098-3f27aa37afc8",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "8eb59dc2-72a1-225a-8912-6f8bf3d80277",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16889,
+							category = "Self",
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							uuid = "fcca149e-8c43-079c-9098-3f27aa37afc8",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 2009.3,
+				name = "Dismantle",
+				timelineIndex = 273,
+				timerOffset = -9.8999996185303,
+				uuid = "53fc5e07-f105-a2ca-9e24-2967236e3590",
+				version = 2,
+			},
+		},
+	},
+	[274] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "3296c05f-b1f5-b9ac-937e-147f00e5619f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 2022.5,
+				name = "Tactician",
+				timelineIndex = 274,
+				timerOffset = -15,
+				uuid = "e1e17621-939a-0522-be78-6748613b36de",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fcca149e-8c43-079c-9098-3f27aa37afc8",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "8eb59dc2-72a1-225a-8912-6f8bf3d80277",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16889,
+							category = "Self",
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							uuid = "fcca149e-8c43-079c-9098-3f27aa37afc8",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 2022.5,
+				name = "Dismantle",
+				timelineIndex = 274,
+				timerOffset = -9.8999996185303,
+				uuid = "ffbc3798-4955-8aff-a0ee-7be9d5c363b0",
+				version = 2,
+			},
+		},
+	},
+	inheritedProfiles = 
+	{
+		"store\\anyone\\extremes\\golbez",
+	},
+	mapID = 1141,
+	version = 1,
+}
+
+
+
+return tbl
