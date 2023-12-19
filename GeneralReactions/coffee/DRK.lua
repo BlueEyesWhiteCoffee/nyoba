@@ -17,7 +17,9 @@ local tbl =
 	inheritedProfiles = 
 	{
 		"store\\anyone\\darkknight",
-		"CoffeeToggle",
+		"coffee\\ZDD",
+		"coffee\\ZDRAW",
+		"coffee\\ZTOGGLE",
 	},
 }
 

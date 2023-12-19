@@ -535,20 +535,6 @@ local tbl =
 	{
 		data = 
 		{
-			name = "Self Learning AOEs",
-			uuid = "ea55126a-a3bf-0aef-aa9e-a051f69876cf",
-			version = 2,
-		},
-		inheritedIndex = 51,
-		inheritedObjectUUID = "6fa9b2e0-acd0-35a0-bd94-36aa7329ee5a",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
 			actions = 
 			{
 				
@@ -1619,8 +1605,9 @@ local tbl =
 	inheritedProfiles = 
 	{
 		"store\\anyone\\warrior",
-		"CoffeeToggle",
-		"CoffeeDraw",
+		"coffee\\ZDD",
+		"coffee\\ZDRAW",
+		"coffee\\ZTOGGLE",
 	},
 }
 

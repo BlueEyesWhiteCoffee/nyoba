@@ -626,61 +626,6 @@ local tbl =
 	{
 		data = 
 		{
-			name = "--panda savage",
-			uuid = "4cb9b6a3-4779-1b94-9696-45b97d5c2e5f",
-			version = 2,
-		},
-		inheritedIndex = 1,
-		inheritedObjectUUID = "bc3d0016-afc5-259f-9258-662a6e773d09",
-	},
-	
-	{
-		data = 
-		{
-			name = "P4S Knockback",
-			uuid = "4c346a1e-60c1-9ac8-91f8-9f0e27e8d087",
-			version = 2,
-		},
-		inheritedIndex = 3,
-		inheritedObjectUUID = "cd9e7a35-65cc-0162-ba5d-97bfc02e681d",
-		inheritedOverwrites = 
-		{
-			conditions = 
-			{
-				
-				{
-					position = 7,
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							name = "",
-							uuid = "f17d76d4-69e1-8127-84a8-7d8e38dd60e3",
-							version = 2,
-						},
-						inheritedIndex = 7,
-						inheritedObjectUUID = "333e4836-b5e5-4052-a4c9-f73da4289885",
-					},
-				},
-			},
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Prepull Helper",
-			uuid = "c3214f3e-9ce7-23f4-ae1d-c788e9e13404",
-			version = 2,
-		},
-		inheritedIndex = 6,
-		inheritedObjectUUID = "836408e6-7746-5f2b-a8af-ff76405e4cc8",
-	},
-	
-	{
-		data = 
-		{
 			actions = 
 			{
 				
@@ -1402,10 +1347,10 @@ local tbl =
 	}, 
 	inheritedProfiles = 
 	{
-		"store\\anyone\\sharedextreme",
-		"store\\anyone\\sharedsavage",
 		"store\\anyone\\scholar",
-		"CoffeeToggle",
+		"coffee\\ZDD",
+		"coffee\\ZDRAW",
+		"coffee\\ZTOGGLE",
 	},
 }
 

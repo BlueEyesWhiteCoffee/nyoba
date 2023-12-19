@@ -28,27 +28,11 @@ local tbl =
 			version = 2,
 		},
 		inheritedIndex = 1,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			eventType = 2,
-			name = "Zantetsuken",
-			uuid = "07f39da6-f44b-61aa-bd36-3a863362c09d",
-			version = 2,
-		},
 	}, 
 	inheritedProfiles = 
 	{
 		"store\\anyone\\pvp",
-		"CoffeeToggle",
+		"coffee\\ZTOGGLE",
 	},
 }
 

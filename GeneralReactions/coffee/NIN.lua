@@ -2,8 +2,10 @@ local tbl =
 {
 	inheritedProfiles = 
 	{
-		"CoffeeSpeedHack",
 		"store\\anyone\\ninja",
+		"coffee\\ZDD",
+		"coffee\\ZDRAW",
+		"coffee\\ZTOGGLE",
 	},
 }
 

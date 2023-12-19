@@ -474,6 +474,10 @@ local tbl =
 					{
 						category = "Self",
 						conditionType = 12,
+						localMapIDList = 
+						{
+							1111,
+						},
 						name = "Eureka Orthos",
 						uuid = "524c1b0f-030c-62b5-9b42-361a317a1c17",
 						version = 2,
@@ -481,7 +485,7 @@ local tbl =
 				},
 			},
 			eventType = 15,
-			name = "Tethe Change",
+			name = "Tether Change",
 			uuid = "5d7641b3-07d4-de9c-9e7b-557e73cc0d6d",
 			version = 2,
 		},

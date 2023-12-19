@@ -6,6 +6,22 @@ local tbl =
 		{
 			actions = 
 			{
+			},
+			conditions = 
+			{
+			},
+			name = "--- Coffee Toggle ---",
+			uuid = "688ffc6c-2ef5-0c9d-9c14-be5d8b81d170",
+			version = 2,
+		},
+		inheritedIndex = 1,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
 				
 				{
 					data = 
@@ -148,7 +164,7 @@ local tbl =
 			uuid = "b4814001-8c5a-46c1-868d-ead3739ddbac",
 			version = 2,
 		},
-		inheritedIndex = 1,
+		inheritedIndex = 2,
 	},
 	
 	{
@@ -845,7 +861,7 @@ local tbl =
 			uuid = "862cf699-c5c2-d6fe-b182-6a57cbe5d7e2",
 			version = 2,
 		},
-		inheritedIndex = 2,
+		inheritedIndex = 3,
 	},
 	
 	{
@@ -951,22 +967,6 @@ local tbl =
 			uuid = "386300ef-f4b0-73d7-9033-26cf1667f979",
 			version = 2,
 		},
-		inheritedIndex = 3,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			name = "--- Coffee Toggle ---",
-			uuid = "688ffc6c-2ef5-0c9d-9c14-be5d8b81d170",
-			version = 2,
-		},
 		inheritedIndex = 4,
 	},
 	
@@ -1036,38 +1036,9 @@ local tbl =
 			version = 2,
 		},
 		inheritedIndex = 6,
-	},
-	
-	{
-		data = 
-		{
-			name = "Misdirection",
-			uuid = "a401537c-6ce4-fd50-b2f6-62c4e4276d4c",
-			version = 2,
-		},
-		inheritedObjectUUID = "63770b21-3fb2-d368-817e-b1816b122c9b",
-		inheritedOverwrites = 
-		{
-			enabled = false,
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Self Learning AOEs",
-			uuid = "6fa9b2e0-acd0-35a0-bd94-36aa7329ee5a",
-			version = 2,
-		},
-		inheritedIndex = 10,
-		inheritedObjectUUID = "59ff8550-d28d-6f84-a852-a32bd540d43a",
-		inheritedOverwrites = 
-		{
-		},
 	}, 
 	inheritedProfiles = 
 	{
-		"store\\anyone\\Blunderville",
 	},
 }
 

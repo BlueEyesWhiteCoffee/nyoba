@@ -293,10 +293,10 @@ local tbl =
 	}, 
 	inheritedProfiles = 
 	{
-		"CoffeeSpeedHack",
 		"store\\anyone\\reaper",
-		"CoffeeToggle",
-		"store\\anyone\\Blunderville",
+		"coffee\\ZDD",
+		"coffee\\ZDRAW",
+		"coffee\\ZTOGGLE",
 	},
 }
 

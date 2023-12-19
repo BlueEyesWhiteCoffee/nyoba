@@ -10,49 +10,72 @@ local tbl =
 				{
 					data = 
 					{
-						actionID = 24309,
+						aType = "Variable",
+						actionID = 24303,
 						conditions = 
 						{
 							
 							{
-								"974b46d3-7c23-a9d0-b03a-c40ba1a66174",
+								"bf585635-39ef-d9b8-a011-b4a3b487bbc5",
 								true,
 							},
+							
+							{
+								"5be36610-0451-36b8-8e57-921680d26251",
+								true,
+							},
+							
+							{
+								"faba8c5c-0827-8d85-86c5-9d0efeb2eac2",
+								false,
+							},
 						},
-						endIfUsed = true,
-						uuid = "300ffafb-f6c1-57d2-ba43-44c8e64cfeaa",
+						gVar = "ACR_RikuSGE_Healbar_Taurochole",
+						name = "Buang Gall Tauro MT",
+						targetSubType = "Lowest HP",
+						targetType = "Main Tank",
+						uuid = "987849c8-3bca-4e07-97ae-c54c4d735f67",
+						variableIsHover = true,
+						variableTogglesType = 3,
 						version = 2,
 					},
+					inheritedIndex = 1,
 				},
-			},
-			conditions = 
-			{
 				
 				{
 					data = 
 					{
-						category = "Self",
-						comparator = 2,
-						conditionType = 6,
-						dequeueIfLuaFalse = true,
-						gaugeIndex = 2,
-						uuid = "974b46d3-7c23-a9d0-b03a-c40ba1a66174",
+						aType = "Variable",
+						actionID = 24303,
+						conditions = 
+						{
+							
+							{
+								"31270b86-7454-dea2-83c9-c4a1ba570818",
+								true,
+							},
+							
+							{
+								"d026df84-0808-7315-9007-8c14da62b927",
+								true,
+							},
+							
+							{
+								"faba8c5c-0827-8d85-86c5-9d0efeb2eac2",
+								false,
+							},
+						},
+						gVar = "ACR_RikuSGE_Healbar_Taurochole",
+						name = "Tauro MT",
+						targetSubType = "Lowest HP",
+						targetType = "Main Tank",
+						uuid = "5b6eacf5-0814-cc39-861d-2d2c59ff284d",
+						variableIsHover = true,
+						variableTogglesType = 3,
 						version = 2,
 					},
+					inheritedIndex = 2,
 				},
-			},
-			name = "Auto Rhizomata",
-			throttleTime = 5000,
-			uuid = "5d71e407-c30f-70ac-83d4-4673bed58fa1",
-			version = 2,
-		},
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
 				
 				{
 					data = 
@@ -62,14 +85,58 @@ local tbl =
 						{
 							
 							{
-								"4488d4b5-642a-be77-a1d2-58a898f71dfc",
+								"31270b86-7454-dea2-83c9-c4a1ba570818",
+								true,
+							},
+							
+							{
+								"faba8c5c-0827-8d85-86c5-9d0efeb2eac2",
+								true,
+							},
+							
+							{
+								"666b3831-d0fd-df7b-95e1-b72605287111",
 								true,
 							},
 						},
-						gVar = "ACR_RikuSGE_Healbar_Krasis",
+						gVar = "ACR_RikuSGE_Healbar_Druochole",
+						name = "TANK <40 Druochole",
+						targetSubType = "Lowest HP",
+						targetType = "Detection Target",
+						uuid = "23095aa6-f66c-083a-8808-c37b854ca84f",
+						variableIsHover = true,
+						variableTogglesType = 3,
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						conditions = 
+						{
+							
+							{
+								"bf585635-39ef-d9b8-a011-b4a3b487bbc5",
+								true,
+							},
+							
+							{
+								"60a877c3-3fb4-b855-909e-91ce11af31be",
+								true,
+							},
+							
+							{
+								"79fd797f-74e7-aee1-9c4b-a2585d0ebe9b",
+								true,
+							},
+						},
+						gVar = "ACR_RikuSGE_Healbar_Druochole",
+						name = "Buang Capped Gall",
 						targetSubType = "Lowest HP",
 						targetType = "Tank",
-						uuid = "66d4b9f1-ab05-00c2-955e-048d372df838",
+						uuid = "115b36b6-e3f1-ae61-b7ee-232e4dd2b5ec",
 						variableIsHover = true,
 						variableTogglesType = 3,
 						version = 2,
@@ -82,22 +149,427 @@ local tbl =
 				{
 					data = 
 					{
+						category = "Self",
+						conditionType = 6,
+						dequeueIfLuaFalse = true,
+						gaugeIndex = 2,
+						gaugeValue = 3,
+						name = "Max Gall",
+						uuid = "bf585635-39ef-d9b8-a011-b4a3b487bbc5",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 6,
+						dequeueIfLuaFalse = true,
+						gaugeIndex = 2,
+						gaugeValue = 2,
+						name = "2 Gall",
+						uuid = "31270b86-7454-dea2-83c9-c4a1ba570818",
+						version = 2,
+					},
+					inheritedIndex = 2,
+				},
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 6,
+						dequeueIfLuaFalse = true,
+						gaugeIndex = 2,
+						gaugeValue = 1,
+						name = "1 Gall",
+						uuid = "9c142424-3191-0c38-bd81-6a08d1eea08a",
+						version = 2,
+					},
+					inheritedIndex = 3,
+				},
+				
+				{
+					data = 
+					{
 						category = "Party",
 						comparator = 2,
 						conditionType = 2,
-						hpValue = 60,
-						name = "Tank HP",
+						dequeueIfLuaFalse = true,
+						hpValue = 90,
+						name = "MTank HP 80",
 						partyTargetSubType = "Lowest HP",
-						partyTargetType = "Tank",
-						uuid = "4488d4b5-642a-be77-a1d2-58a898f71dfc",
+						partyTargetType = "Main Tank",
+						uuid = "5be36610-0451-36b8-8e57-921680d26251",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Party",
+						comparator = 2,
+						conditionType = 2,
+						dequeueIfLuaFalse = true,
+						hpValue = 40,
+						name = "MTank HP 50",
+						partyTargetSubType = "Lowest HP",
+						partyTargetType = "Main Tank",
+						uuid = "d026df84-0808-7315-9007-8c14da62b927",
+						version = 2,
+					},
+					inheritedIndex = 5,
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 1,
+						actionID = 24303,
+						category = "Self",
+						conditionType = 4,
+						uuid = "faba8c5c-0827-8d85-86c5-9d0efeb2eac2",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Party",
+						comparator = 2,
+						conditionType = 2,
+						hpValue = 30,
+						name = "Party HP <30%",
+						partyTargetType = "Detection Target",
+						uuid = "929854f5-b28f-0e6b-9d69-68f19bf90cac",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Filter",
+						conditions = 
+						{
+							
+							{
+								"929854f5-b28f-0e6b-9d69-68f19bf90cac",
+								true,
+							},
+						},
+						filterTargetType = "Tank",
+						name = "TANK FILTER",
+						uuid = "666b3831-d0fd-df7b-95e1-b72605287111",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Filter",
+						conditions = 
+						{
+							
+							{
+								"929854f5-b28f-0e6b-9d69-68f19bf90cac",
+								true,
+							},
+						},
+						filterTargetType = "Party",
+						name = "Non Tank Filter",
+						uuid = "f814c3d0-54f6-c6ef-a6c5-96fefe21ff5f",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 1,
+						actionID = 7562,
+						category = "Self",
+						conditionType = 4,
+						uuid = "60a877c3-3fb4-b855-909e-91ce11af31be",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Self",
+						comparator = 2,
+						conditionType = 3,
+						dequeueIfLuaFalse = true,
+						mpValue = 90,
+						uuid = "79fd797f-74e7-aee1-9c4b-a2585d0ebe9b",
 						version = 2,
 					},
 				},
 			},
-			name = "Krasis",
-			uuid = "6ada170b-b29f-258b-ab55-3423dfd0204b",
+			name = "Addersgall",
+			throttleTime = 2000,
+			uuid = "7d6444ab-6f28-1e9a-bb6a-72a4b20d418b",
 			version = 2,
 		},
+		inheritedIndex = 26,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "ACR_RikuSGE_CD = true\n---ACR_RikuSGE_SwiftRes = true\nACR_RikuSGE_Attacks = true\nACR_RikuSGE_SmartDoT = true\nACR_RikuSGE_KardiaMT = false\nACR_RikuSGE_Lucid = true\nACR_RikuSGE_AOE = true\n---ACR_RikuSGE_HardRes = false\n---ACR_RikuSGE_Potion = false\nACR_RikuSGE_Rhizomata = true\nACR_RikuSGE_Phlegma = true\nACR_RikuSGE_Burn = false\nACR_RikuSGE_ResAllianceHealer = false\nACR_RikuSGE_DoT = true\n\nACR_RikuSGE_Hotbar_Rescue = false\nACR_RikuSGE_Hotbar_Icarus = false\nACR_RikuSGE_Hotbar_Repose = false\nACR_RikuSGE_Hotbar_Potion = false\nACR_RikuSGE_Hotbar_DutyAction1 = false\nACR_RikuSGE_Hotbar_SmartResMouse = false\nACR_RikuSGE_Hotbar_SwiftResMouse = false\nACR_RikuSGE_Hotbar_Surecast = false\nACR_RikuSGE_Hotbar_Sprint = false\nACR_RikuSGE_Hotbar_LimitBreak = false\nACR_RikuSGE_Hotbar_DutyAction2 = false\nACR_RikuSGE_Hotbar_HardResMouse = false\nACR_RikuSGE_Hotbar_LockFace = false\n\nACR_RikuSGE_Healbar_Diagnosis = false\nACR_RikuSGE_Healbar_Holos = false\nACR_RikuSGE_Healbar_EukrasianDiagnosis = false\nACR_RikuSGE_Healbar_Prognosis = false\nACR_RikuSGE_Healbar_EukrasianPrognosis = false\nACR_RikuSGE_Healbar_Physis = false\nACR_RikuSGE_Healbar_Druochole = false\nACR_RikuSGE_Healbar_Ixochole = false\nACR_RikuSGE_Healbar_Taurochole = false\nACR_RikuSGE_Healbar_Kardia = false\nACR_RikuSGE_Healbar_Pepsis = false\nACR_RikuSGE_Healbar_Panhaima = false\nACR_RikuSGE_Healbar_Pneuma = false\nACR_RikuSGE_Healbar_Kerachole = false\nACR_RikuSGE_Healbar_Soteria = false\nACR_RikuSGE_Healbar_Zoe = false\nACR_RikuSGE_Healbar_Krasis = false\nACR_RikuSGE_Healbar_Haima = false\nACR_RikuSGE_Healbar_Esuna = false\n\nif AnyoneCore.Data.PotsEnabled == true then\n\t\tAnyoneCore.Data.PotsEnabled = nil\n\t\tACR_RikuSGE_Potion = true\nend\n\nself.used = true",
+						name = "Reset Toggles and Hotbars",
+						uuid = "558ee729-0ba3-f190-b82e-bac8720497ae",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "Player:ClearTarget()\nAnyoneCore.Data.Toggle = {}\nTensorDrift_SlidecastForceHold = false\nAnyoneCore.JobCheck()\n\nif eventArgs.oldData ~= nil and eventArgs.oldData.startCombat ~= nil then\n\t\tgStartCombat = false\n\t\tdata.startCombat = nil\nend\n\nself.used = true",
+						name = "Misc",
+						uuid = "59680516-386f-c190-a4bb-b275d6fb3aaa",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "if eventArgs.oldData ~= nil and eventArgs.oldData.markedplayers ~= nil and eventArgs.oldData.removedmarking == false then\n    for i=1,#eventArgs.oldData.markedplayer do\n        local n = eventArgs.oldData.markedplayer[i]\n        data.removedmarking = true\n        d(\"removing marking from \" .. n)\n        ActionList:Get(12,i):Cast(n)\n    end\nend\n\nif Player.localmapid == 777 and AnyoneCore.Settings.IfritPhasePot == true then\n\t\tACR_RikuSGE_Potion = false\nend\n\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"3988c287-26d3-dc52-adfb-64877644f41a",
+								true,
+							},
+						},
+						name = "UWU",
+						uuid = "76651bdd-0d8c-9454-8a5c-d09f9d7a0bae",
+						version = 2,
+					},
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 8,
+						dequeueIfLuaFalse = true,
+						localmapid = 777,
+						uuid = "3988c287-26d3-dc52-adfb-64877644f41a",
+						version = 2,
+					},
+				},
+			},
+			eventType = 9,
+			name = "OnWipe Reaction",
+			uuid = "50fc7f91-7503-40ed-a94a-ead3f3c039b7",
+			version = 2,
+		},
+		inheritedIndex = 27,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "ACR_RikuSGE_Hotbar_Rescue = false\nACR_RikuSGE_Hotbar_Icarus = false\nACR_RikuSGE_Hotbar_Repose = false\nACR_RikuSGE_Hotbar_Potion = false\nACR_RikuSGE_Hotbar_DutyAction1 = false\nACR_RikuSGE_Hotbar_SmartResMouse = false\nACR_RikuSGE_Hotbar_SwiftResMouse = false\nACR_RikuSGE_Hotbar_Surecast = false\nACR_RikuSGE_Hotbar_Sprint = false\nACR_RikuSGE_Hotbar_LimitBreak = false\nACR_RikuSGE_Hotbar_DutyAction2 = false\nACR_RikuSGE_Hotbar_HardResMouse = false\nACR_RikuSGE_Hotbar_LockFace = false\n\nACR_RikuSGE_Healbar_Diagnosis = false\nACR_RikuSGE_Healbar_Holos = false\nACR_RikuSGE_Healbar_EukrasianDiagnosis = false\nACR_RikuSGE_Healbar_Prognosis = false\nACR_RikuSGE_Healbar_EukrasianPrognosis = false\nACR_RikuSGE_Healbar_Physis = false\nACR_RikuSGE_Healbar_Druochole = false\nACR_RikuSGE_Healbar_Ixochole = false\nACR_RikuSGE_Healbar_Taurochole = false\nACR_RikuSGE_Healbar_Kardia = false\nACR_RikuSGE_Healbar_Pepsis = false\nACR_RikuSGE_Healbar_Panhaima = false\nACR_RikuSGE_Healbar_Pneuma = false\nACR_RikuSGE_Healbar_Kerachole = false\nACR_RikuSGE_Healbar_Soteria = false\nACR_RikuSGE_Healbar_Zoe = false\nACR_RikuSGE_Healbar_Krasis = false\nACR_RikuSGE_Healbar_Haima = false\nACR_RikuSGE_Healbar_Esuna = false\n\n\nself.used = true",
+						name = "Reset Hotbars",
+						uuid = "c0e5227c-24a7-a8a4-a3d0-d0109dcd430e",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "Player:ClearTarget()\n\nself.used = true",
+						name = "Misc",
+						uuid = "7a1104aa-f283-7d65-b796-50439647e730",
+						version = 2,
+					},
+				},
+			},
+			conditions = 
+			{
+			},
+			eventType = 10,
+			name = "OnDeath Reaction",
+			uuid = "592a4867-00e8-7bd5-9618-8be013b34e76",
+			version = 2,
+		},
+		inheritedIndex = 28,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = 7559,
+						conditions = 
+						{
+							
+							{
+								"9344e544-8aa7-e303-ae49-c8a23dec9d2e",
+								true,
+							},
+							
+							{
+								"c73df984-1137-1ad0-af9f-83e2b83f6c91",
+								true,
+							},
+							
+							{
+								"576b2abc-b50f-1223-a256-3d54da36abed",
+								true,
+							},
+							
+							{
+								"559f05a4-3baf-4a21-9902-f6a0e91af34f",
+								true,
+							},
+							
+							{
+								"1dbd9942-5f70-2107-9089-5fc4fe643069",
+								true,
+							},
+							
+							{
+								"08f1d3bf-4caa-0138-81a2-1d022c3b600d",
+								true,
+							},
+						},
+						endIfUsed = true,
+						gVar = "ACR_RikuSGE_Hotbar_Surecast",
+						ignoreWeaveRules = true,
+						uuid = "69b3d0f1-9d83-ac26-92f3-ac34f600f8ee",
+						variableTogglesType = 2,
+						version = 2,
+					},
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return TensorCore.mGetPlayer().alive and AnyoneCore ~= nil and (AnyoneCore.assistCallback() or AnyoneCore.Settings.DutyHelper.requirebotenabled == false) and AnyoneCore.Settings.DutyHelper.enabled == true",
+						dequeueIfLuaFalse = true,
+						name = "duty helper enabled",
+						partyTargetSubType = 1,
+						uuid = "c73df984-1137-1ad0-af9f-83e2b83f6c91",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 7,
+						dequeueIfLuaFalse = true,
+						name = "combat check",
+						partyTargetSubType = 1,
+						uuid = "1dbd9942-5f70-2107-9089-5fc4fe643069",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return AnyoneCore.Knockback[eventArgs.spellID] == true",
+						dequeueIfLuaFalse = true,
+						name = "check kb table",
+						uuid = "559f05a4-3baf-4a21-9902-f6a0e91af34f",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Party",
+						channelCheckTimeRemain = 5,
+						channelCheckType = 3,
+						comparator = 2,
+						conditionType = 5,
+						name = "check timer",
+						partyTargetType = "Event Entity",
+						uuid = "08f1d3bf-4caa-0138-81a2-1d022c3b600d",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						buffCheckType = 2,
+						buffID = 418,
+						category = "Self",
+						name = "missing transcendent",
+						uuid = "576b2abc-b50f-1223-a256-3d54da36abed",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "local ent = TensorCore.mGetEntity(eventArgs.entityID)\nreturn ent ~= nil and ent.type ~= 1",
+						dequeueIfLuaFalse = true,
+						name = "not a player",
+						uuid = "9344e544-8aa7-e303-ae49-c8a23dec9d2e",
+						version = 2,
+					},
+				},
+			},
+			eventType = 3,
+			name = "Surecast",
+			timeout = 10,
+			uuid = "0854362d-d35f-f953-b51b-7dfe5236396b",
+			version = 2,
+		},
+		inheritedIndex = 29,
 	},
 	
 	{
@@ -723,475 +1195,17 @@ local tbl =
 				{
 					data = 
 					{
-						aType = "Variable",
-						actionID = 24303,
+						actionID = 24309,
 						conditions = 
 						{
 							
 							{
-								"bf585635-39ef-d9b8-a011-b4a3b487bbc5",
-								true,
-							},
-							
-							{
-								"5be36610-0451-36b8-8e57-921680d26251",
-								true,
-							},
-							
-							{
-								"faba8c5c-0827-8d85-86c5-9d0efeb2eac2",
-								false,
-							},
-						},
-						gVar = "ACR_RikuSGE_Healbar_Taurochole",
-						name = "Buang Gall Tauro MT",
-						targetSubType = "Lowest HP",
-						targetType = "Main Tank",
-						uuid = "987849c8-3bca-4e07-97ae-c54c4d735f67",
-						variableIsHover = true,
-						variableTogglesType = 3,
-						version = 2,
-					},
-					inheritedIndex = 1,
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 24303,
-						conditions = 
-						{
-							
-							{
-								"31270b86-7454-dea2-83c9-c4a1ba570818",
-								true,
-							},
-							
-							{
-								"d026df84-0808-7315-9007-8c14da62b927",
-								true,
-							},
-							
-							{
-								"faba8c5c-0827-8d85-86c5-9d0efeb2eac2",
-								false,
-							},
-						},
-						gVar = "ACR_RikuSGE_Healbar_Taurochole",
-						name = "Tauro MT",
-						targetSubType = "Lowest HP",
-						targetType = "Main Tank",
-						uuid = "5b6eacf5-0814-cc39-861d-2d2c59ff284d",
-						variableIsHover = true,
-						variableTogglesType = 3,
-						version = 2,
-					},
-					inheritedIndex = 2,
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						conditions = 
-						{
-							
-							{
-								"31270b86-7454-dea2-83c9-c4a1ba570818",
-								true,
-							},
-							
-							{
-								"faba8c5c-0827-8d85-86c5-9d0efeb2eac2",
-								true,
-							},
-							
-							{
-								"666b3831-d0fd-df7b-95e1-b72605287111",
-								true,
-							},
-						},
-						gVar = "ACR_RikuSGE_Healbar_Druochole",
-						name = "TANK <40 Druochole",
-						targetSubType = "Lowest HP",
-						targetType = "Detection Target",
-						uuid = "23095aa6-f66c-083a-8808-c37b854ca84f",
-						variableIsHover = true,
-						variableTogglesType = 3,
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						conditions = 
-						{
-							
-							{
-								"bf585635-39ef-d9b8-a011-b4a3b487bbc5",
-								true,
-							},
-							
-							{
-								"60a877c3-3fb4-b855-909e-91ce11af31be",
-								true,
-							},
-							
-							{
-								"79fd797f-74e7-aee1-9c4b-a2585d0ebe9b",
-								true,
-							},
-						},
-						gVar = "ACR_RikuSGE_Healbar_Druochole",
-						name = "Buang Capped Gall",
-						targetSubType = "Lowest HP",
-						targetType = "Tank",
-						uuid = "115b36b6-e3f1-ae61-b7ee-232e4dd2b5ec",
-						variableIsHover = true,
-						variableTogglesType = 3,
-						version = 2,
-					},
-				},
-			},
-			conditions = 
-			{
-				
-				{
-					data = 
-					{
-						category = "Self",
-						conditionType = 6,
-						dequeueIfLuaFalse = true,
-						gaugeIndex = 2,
-						gaugeValue = 3,
-						name = "Max Gall",
-						uuid = "bf585635-39ef-d9b8-a011-b4a3b487bbc5",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Self",
-						conditionType = 6,
-						dequeueIfLuaFalse = true,
-						gaugeIndex = 2,
-						gaugeValue = 2,
-						name = "2 Gall",
-						uuid = "31270b86-7454-dea2-83c9-c4a1ba570818",
-						version = 2,
-					},
-					inheritedIndex = 2,
-				},
-				
-				{
-					data = 
-					{
-						category = "Self",
-						conditionType = 6,
-						dequeueIfLuaFalse = true,
-						gaugeIndex = 2,
-						gaugeValue = 1,
-						name = "1 Gall",
-						uuid = "9c142424-3191-0c38-bd81-6a08d1eea08a",
-						version = 2,
-					},
-					inheritedIndex = 3,
-				},
-				
-				{
-					data = 
-					{
-						category = "Party",
-						comparator = 2,
-						conditionType = 2,
-						dequeueIfLuaFalse = true,
-						hpValue = 90,
-						name = "MTank HP 80",
-						partyTargetSubType = "Lowest HP",
-						partyTargetType = "Main Tank",
-						uuid = "5be36610-0451-36b8-8e57-921680d26251",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Party",
-						comparator = 2,
-						conditionType = 2,
-						dequeueIfLuaFalse = true,
-						hpValue = 40,
-						name = "MTank HP 50",
-						partyTargetSubType = "Lowest HP",
-						partyTargetType = "Main Tank",
-						uuid = "d026df84-0808-7315-9007-8c14da62b927",
-						version = 2,
-					},
-					inheritedIndex = 5,
-				},
-				
-				{
-					data = 
-					{
-						actionCDValue = 1,
-						actionID = 24303,
-						category = "Self",
-						conditionType = 4,
-						uuid = "faba8c5c-0827-8d85-86c5-9d0efeb2eac2",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Party",
-						comparator = 2,
-						conditionType = 2,
-						hpValue = 30,
-						name = "Party HP <30%",
-						partyTargetType = "Detection Target",
-						uuid = "929854f5-b28f-0e6b-9d69-68f19bf90cac",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Filter",
-						conditions = 
-						{
-							
-							{
-								"929854f5-b28f-0e6b-9d69-68f19bf90cac",
-								true,
-							},
-						},
-						filterTargetType = "Tank",
-						name = "TANK FILTER",
-						uuid = "666b3831-d0fd-df7b-95e1-b72605287111",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Filter",
-						conditions = 
-						{
-							
-							{
-								"929854f5-b28f-0e6b-9d69-68f19bf90cac",
-								true,
-							},
-						},
-						filterTargetType = "Party",
-						name = "Non Tank Filter",
-						uuid = "f814c3d0-54f6-c6ef-a6c5-96fefe21ff5f",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						actionCDValue = 1,
-						actionID = 7562,
-						category = "Self",
-						conditionType = 4,
-						uuid = "60a877c3-3fb4-b855-909e-91ce11af31be",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Self",
-						comparator = 2,
-						conditionType = 3,
-						dequeueIfLuaFalse = true,
-						mpValue = 90,
-						uuid = "79fd797f-74e7-aee1-9c4b-a2585d0ebe9b",
-						version = 2,
-					},
-				},
-			},
-			name = "Addersgall",
-			throttleTime = 2000,
-			uuid = "7d6444ab-6f28-1e9a-bb6a-72a4b20d418b",
-			version = 2,
-		},
-		inheritedIndex = 26,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "ACR_RikuSGE_CD = true\n---ACR_RikuSGE_SwiftRes = true\nACR_RikuSGE_Attacks = true\nACR_RikuSGE_SmartDoT = true\nACR_RikuSGE_KardiaMT = false\nACR_RikuSGE_Lucid = true\nACR_RikuSGE_AOE = true\n---ACR_RikuSGE_HardRes = false\n---ACR_RikuSGE_Potion = false\nACR_RikuSGE_Rhizomata = true\nACR_RikuSGE_Phlegma = true\nACR_RikuSGE_Burn = false\nACR_RikuSGE_ResAllianceHealer = false\nACR_RikuSGE_DoT = true\n\nACR_RikuSGE_Hotbar_Rescue = false\nACR_RikuSGE_Hotbar_Icarus = false\nACR_RikuSGE_Hotbar_Repose = false\nACR_RikuSGE_Hotbar_Potion = false\nACR_RikuSGE_Hotbar_DutyAction1 = false\nACR_RikuSGE_Hotbar_SmartResMouse = false\nACR_RikuSGE_Hotbar_SwiftResMouse = false\nACR_RikuSGE_Hotbar_Surecast = false\nACR_RikuSGE_Hotbar_Sprint = false\nACR_RikuSGE_Hotbar_LimitBreak = false\nACR_RikuSGE_Hotbar_DutyAction2 = false\nACR_RikuSGE_Hotbar_HardResMouse = false\nACR_RikuSGE_Hotbar_LockFace = false\n\nACR_RikuSGE_Healbar_Diagnosis = false\nACR_RikuSGE_Healbar_Holos = false\nACR_RikuSGE_Healbar_EukrasianDiagnosis = false\nACR_RikuSGE_Healbar_Prognosis = false\nACR_RikuSGE_Healbar_EukrasianPrognosis = false\nACR_RikuSGE_Healbar_Physis = false\nACR_RikuSGE_Healbar_Druochole = false\nACR_RikuSGE_Healbar_Ixochole = false\nACR_RikuSGE_Healbar_Taurochole = false\nACR_RikuSGE_Healbar_Kardia = false\nACR_RikuSGE_Healbar_Pepsis = false\nACR_RikuSGE_Healbar_Panhaima = false\nACR_RikuSGE_Healbar_Pneuma = false\nACR_RikuSGE_Healbar_Kerachole = false\nACR_RikuSGE_Healbar_Soteria = false\nACR_RikuSGE_Healbar_Zoe = false\nACR_RikuSGE_Healbar_Krasis = false\nACR_RikuSGE_Healbar_Haima = false\nACR_RikuSGE_Healbar_Esuna = false\n\nif AnyoneCore.Data.PotsEnabled == true then\n\t\tAnyoneCore.Data.PotsEnabled = nil\n\t\tACR_RikuSGE_Potion = true\nend\n\nself.used = true",
-						name = "Reset Toggles and Hotbars",
-						uuid = "558ee729-0ba3-f190-b82e-bac8720497ae",
-						version = 2,
-					},
-					inheritedIndex = 1,
-				},
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "Player:ClearTarget()\nAnyoneCore.Data.Toggle = {}\nTensorDrift_SlidecastForceHold = false\nAnyoneCore.JobCheck()\n\nif eventArgs.oldData ~= nil and eventArgs.oldData.startCombat ~= nil then\n\t\tgStartCombat = false\n\t\tdata.startCombat = nil\nend\n\nself.used = true",
-						name = "Misc",
-						uuid = "59680516-386f-c190-a4bb-b275d6fb3aaa",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "if eventArgs.oldData ~= nil and eventArgs.oldData.markedplayers ~= nil and eventArgs.oldData.removedmarking == false then\n    for i=1,#eventArgs.oldData.markedplayer do\n        local n = eventArgs.oldData.markedplayer[i]\n        data.removedmarking = true\n        d(\"removing marking from \" .. n)\n        ActionList:Get(12,i):Cast(n)\n    end\nend\n\nif Player.localmapid == 777 and AnyoneCore.Settings.IfritPhasePot == true then\n\t\tACR_RikuSGE_Potion = false\nend\n\nself.used = true",
-						conditions = 
-						{
-							
-							{
-								"3988c287-26d3-dc52-adfb-64877644f41a",
-								true,
-							},
-						},
-						name = "UWU",
-						uuid = "76651bdd-0d8c-9454-8a5c-d09f9d7a0bae",
-						version = 2,
-					},
-				},
-			},
-			conditions = 
-			{
-				
-				{
-					data = 
-					{
-						category = "Self",
-						conditionType = 8,
-						dequeueIfLuaFalse = true,
-						localmapid = 777,
-						uuid = "3988c287-26d3-dc52-adfb-64877644f41a",
-						version = 2,
-					},
-				},
-			},
-			eventType = 9,
-			name = "OnWipe Reaction",
-			uuid = "50fc7f91-7503-40ed-a94a-ead3f3c039b7",
-			version = 2,
-		},
-		inheritedIndex = 27,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "ACR_RikuSGE_Hotbar_Rescue = false\nACR_RikuSGE_Hotbar_Icarus = false\nACR_RikuSGE_Hotbar_Repose = false\nACR_RikuSGE_Hotbar_Potion = false\nACR_RikuSGE_Hotbar_DutyAction1 = false\nACR_RikuSGE_Hotbar_SmartResMouse = false\nACR_RikuSGE_Hotbar_SwiftResMouse = false\nACR_RikuSGE_Hotbar_Surecast = false\nACR_RikuSGE_Hotbar_Sprint = false\nACR_RikuSGE_Hotbar_LimitBreak = false\nACR_RikuSGE_Hotbar_DutyAction2 = false\nACR_RikuSGE_Hotbar_HardResMouse = false\nACR_RikuSGE_Hotbar_LockFace = false\n\nACR_RikuSGE_Healbar_Diagnosis = false\nACR_RikuSGE_Healbar_Holos = false\nACR_RikuSGE_Healbar_EukrasianDiagnosis = false\nACR_RikuSGE_Healbar_Prognosis = false\nACR_RikuSGE_Healbar_EukrasianPrognosis = false\nACR_RikuSGE_Healbar_Physis = false\nACR_RikuSGE_Healbar_Druochole = false\nACR_RikuSGE_Healbar_Ixochole = false\nACR_RikuSGE_Healbar_Taurochole = false\nACR_RikuSGE_Healbar_Kardia = false\nACR_RikuSGE_Healbar_Pepsis = false\nACR_RikuSGE_Healbar_Panhaima = false\nACR_RikuSGE_Healbar_Pneuma = false\nACR_RikuSGE_Healbar_Kerachole = false\nACR_RikuSGE_Healbar_Soteria = false\nACR_RikuSGE_Healbar_Zoe = false\nACR_RikuSGE_Healbar_Krasis = false\nACR_RikuSGE_Healbar_Haima = false\nACR_RikuSGE_Healbar_Esuna = false\n\n\nself.used = true",
-						name = "Reset Hotbars",
-						uuid = "c0e5227c-24a7-a8a4-a3d0-d0109dcd430e",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "Player:ClearTarget()\n\nself.used = true",
-						name = "Misc",
-						uuid = "7a1104aa-f283-7d65-b796-50439647e730",
-						version = 2,
-					},
-				},
-			},
-			conditions = 
-			{
-			},
-			eventType = 10,
-			name = "OnDeath Reaction",
-			uuid = "592a4867-00e8-7bd5-9618-8be013b34e76",
-			version = 2,
-		},
-		inheritedIndex = 28,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 7559,
-						conditions = 
-						{
-							
-							{
-								"9344e544-8aa7-e303-ae49-c8a23dec9d2e",
-								true,
-							},
-							
-							{
-								"c73df984-1137-1ad0-af9f-83e2b83f6c91",
-								true,
-							},
-							
-							{
-								"576b2abc-b50f-1223-a256-3d54da36abed",
-								true,
-							},
-							
-							{
-								"559f05a4-3baf-4a21-9902-f6a0e91af34f",
-								true,
-							},
-							
-							{
-								"1dbd9942-5f70-2107-9089-5fc4fe643069",
-								true,
-							},
-							
-							{
-								"08f1d3bf-4caa-0138-81a2-1d022c3b600d",
+								"974b46d3-7c23-a9d0-b03a-c40ba1a66174",
 								true,
 							},
 						},
 						endIfUsed = true,
-						gVar = "ACR_RikuSGE_Hotbar_Surecast",
-						ignoreWeaveRules = true,
-						uuid = "69b3d0f1-9d83-ac26-92f3-ac34f600f8ee",
-						variableTogglesType = 2,
+						uuid = "300ffafb-f6c1-57d2-ba43-44c8e64cfeaa",
 						version = 2,
 					},
 				},
@@ -1202,87 +1216,73 @@ local tbl =
 				{
 					data = 
 					{
-						category = "Lua",
-						conditionLua = "return TensorCore.mGetPlayer().alive and AnyoneCore ~= nil and (AnyoneCore.assistCallback() or AnyoneCore.Settings.DutyHelper.requirebotenabled == false) and AnyoneCore.Settings.DutyHelper.enabled == true",
-						dequeueIfLuaFalse = true,
-						name = "duty helper enabled",
-						partyTargetSubType = 1,
-						uuid = "c73df984-1137-1ad0-af9f-83e2b83f6c91",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
 						category = "Self",
-						conditionType = 7,
+						comparator = 2,
+						conditionType = 6,
 						dequeueIfLuaFalse = true,
-						name = "combat check",
-						partyTargetSubType = 1,
-						uuid = "1dbd9942-5f70-2107-9089-5fc4fe643069",
+						gaugeIndex = 2,
+						uuid = "974b46d3-7c23-a9d0-b03a-c40ba1a66174",
 						version = 2,
 					},
 				},
+			},
+			name = "Auto Rhizomata",
+			throttleTime = 5000,
+			uuid = "5d71e407-c30f-70ac-83d4-4673bed58fa1",
+			version = 2,
+		},
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
 				
 				{
 					data = 
 					{
-						category = "Lua",
-						conditionLua = "return AnyoneCore.Knockback[eventArgs.spellID] == true",
-						dequeueIfLuaFalse = true,
-						name = "check kb table",
-						uuid = "559f05a4-3baf-4a21-9902-f6a0e91af34f",
+						aType = "Variable",
+						conditions = 
+						{
+							
+							{
+								"4488d4b5-642a-be77-a1d2-58a898f71dfc",
+								true,
+							},
+						},
+						gVar = "ACR_RikuSGE_Healbar_Krasis",
+						targetSubType = "Lowest HP",
+						targetType = "Tank",
+						uuid = "66d4b9f1-ab05-00c2-955e-048d372df838",
+						variableIsHover = true,
+						variableTogglesType = 3,
 						version = 2,
 					},
 				},
+			},
+			conditions = 
+			{
 				
 				{
 					data = 
 					{
 						category = "Party",
-						channelCheckTimeRemain = 5,
-						channelCheckType = 3,
 						comparator = 2,
-						conditionType = 5,
-						name = "check timer",
-						partyTargetType = "Event Entity",
-						uuid = "08f1d3bf-4caa-0138-81a2-1d022c3b600d",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						buffCheckType = 2,
-						buffID = 418,
-						category = "Self",
-						name = "missing transcendent",
-						uuid = "576b2abc-b50f-1223-a256-3d54da36abed",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "local ent = TensorCore.mGetEntity(eventArgs.entityID)\nreturn ent ~= nil and ent.type ~= 1",
-						dequeueIfLuaFalse = true,
-						name = "not a player",
-						uuid = "9344e544-8aa7-e303-ae49-c8a23dec9d2e",
+						conditionType = 2,
+						hpValue = 60,
+						name = "Tank HP",
+						partyTargetSubType = "Lowest HP",
+						partyTargetType = "Tank",
+						uuid = "4488d4b5-642a-be77-a1d2-58a898f71dfc",
 						version = 2,
 					},
 				},
 			},
-			eventType = 3,
-			name = "Surecast",
-			timeout = 10,
-			uuid = "0854362d-d35f-f953-b51b-7dfe5236396b",
+			name = "Krasis",
+			uuid = "6ada170b-b29f-258b-ab55-3423dfd0204b",
 			version = 2,
 		},
-		inheritedIndex = 29,
 	},
 	
 	{
@@ -1342,11 +1342,10 @@ local tbl =
 	}, 
 	inheritedProfiles = 
 	{
-		"CoffeeDraw",
-		"CoffeeToggle",
 		"store\\anyone\\sharedcriterion",
 		"store\\anyone\\sharedcriterion2",
 		"store\\anyone\\sharedcriterion3",
+		"store\\anyone\\sharedextreme",
 	},
 }
 

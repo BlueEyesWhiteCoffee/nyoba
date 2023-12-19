@@ -195,8 +195,7 @@ local tbl =
 	}, 
 	inheritedProfiles = 
 	{
-		"store\\anyone\\pvp",
-		"CoffeeToggle",
+		"coffee\\ZTOGGLE",
 	},
 }
 

@@ -16,9 +16,10 @@ local tbl =
 	}, 
 	inheritedProfiles = 
 	{
-		"CoffeeToggle",
-		"CoffeeDraw",
 		"store\\anyone\\dragoon",
+		"coffee\\ZDD",
+		"coffee\\ZDRAW",
+		"coffee\\ZTOGGLE",
 	},
 }
 

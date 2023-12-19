@@ -349,54 +349,6 @@ local tbl =
 							{
 								
 								{
-									"75d27261-82eb-830e-8ae1-64d769f30993",
-									false,
-								},
-							},
-							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
-							uuid = "a102a23d-be95-0cdf-8393-121156a3c655",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							conditionType = 2,
-							contentid = 12382,
-							name = "Phase 2",
-							uuid = "75d27261-82eb-830e-8ae1-64d769f30993",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 11.1,
-				name = "Dismantle",
-				timelineIndex = 2,
-				timerOffset = -9.8999996185303,
-				uuid = "1c8b6029-7483-b622-96c5-f674e239840a",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
 									"d627abbf-85b6-42ae-894e-1d984a27ca74",
 									false,
 								},

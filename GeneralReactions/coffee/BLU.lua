@@ -4,6 +4,20 @@ local tbl =
 	{
 		data = 
 		{
+			name = "--- Coffee Toggle ---",
+			uuid = "22ab92ce-e4d0-82fb-807f-d168c223cfe3",
+			version = 2,
+		},
+		inheritedIndex = 4,
+		inheritedObjectUUID = "688ffc6c-2ef5-0c9d-9c14-be5d8b81d170",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
 			name = "Reset Position",
 			uuid = "c6526f26-b91f-0d65-9117-df6e93b6ea08",
 			version = 2,
@@ -32,20 +46,6 @@ local tbl =
 					},
 				},
 			},
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "--- Coffee Toggle ---",
-			uuid = "22ab92ce-e4d0-82fb-807f-d168c223cfe3",
-			version = 2,
-		},
-		inheritedIndex = 4,
-		inheritedObjectUUID = "688ffc6c-2ef5-0c9d-9c14-be5d8b81d170",
-		inheritedOverwrites = 
-		{
 		},
 	},
 	
@@ -299,7 +299,9 @@ local tbl =
 	}, 
 	inheritedProfiles = 
 	{
-		"CoffeeToggle",
+		"coffee\\ZDRAW",
+		"coffee\\ZTOGGLE",
+		"coffee\\ZDD",
 	},
 }
 
