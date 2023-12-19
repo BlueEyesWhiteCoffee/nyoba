@@ -120,6 +120,100 @@ local tbl =
 	{
 		data = 
 		{
+			name = "Prepull Helper (new)",
+			uuid = "ee347840-16ae-30ef-b195-3279de4fb212",
+			version = 2,
+		},
+		inheritedObjectUUID = "640ccc98-a98b-b3fe-8c72-6dde2c50f4b8",
+		inheritedOverwrites = 
+		{
+			actions = 
+			{
+				
+				{
+					position = 4,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							actionID = 16889,
+							conditions = 
+							{
+								
+								{
+									"4f03ecdc-e303-3955-bf7f-ead20e52cfb3",
+									true,
+								},
+								
+								{
+									"fa395db4-f377-0e9e-a1ac-d7a0b8a4af88",
+									true,
+								},
+								
+								{
+									"6999cd29-e068-fafb-b7cb-be6b89a75b54",
+									true,
+								},
+								
+								{
+									"61ccb3b2-c243-82ad-8716-0c9a455f1d64",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum2_CD",
+							ignoreWeaveRules = true,
+							uuid = "0733764a-fc64-2b9a-9791-8d1a6e920418",
+							version = 2,
+						},
+						inheritedIndex = 4,
+					},
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							category = "Event",
+							comparator = 2,
+							eventCountdownTime = 1,
+							name = "Tactician",
+							uuid = "6999cd29-e068-fafb-b7cb-be6b89a75b54",
+							version = 2,
+						},
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 12,
+							localMapIDList = 
+							{
+								1154,
+							},
+							name = "Map Dengan Prepull Tactician",
+							uuid = "61ccb3b2-c243-82ad-8716-0c9a455f1d64",
+							version = 2,
+						},
+					},
+				},
+			},
+		},
+	},
+	
+	{
+		data = 
+		{
 			name = "Casts",
 			uuid = "fbf68c46-d23c-9453-90ae-6e08f8055933",
 			version = 2,

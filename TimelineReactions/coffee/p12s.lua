@@ -392,20 +392,6 @@ local tbl =
 		{
 			data = 
 			{
-				name = "rDPS mitigation (15s) (90s)",
-				uuid = "72edeb4c-91fd-1cb2-9255-19da3f43abf8",
-				version = 2,
-			},
-			inheritedObjectUUID = "4d4a3df5-6056-e231-86a2-094302b9cfa8",
-			inheritedOverwrites = 
-			{
-				enabled = false,
-			},
-		},
-		
-		{
-			data = 
-			{
 				actions = 
 				{
 					
@@ -803,8 +789,8 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
-							uuid = "0158db04-8275-d735-8056-ebeebb29c18a",
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "1aaafa2d-6235-ede3-b5f9-4e990a8cd8c9",
 							variableTogglesType = 2,
 							version = 2,
 						},
@@ -814,10 +800,13 @@ local tbl =
 				{
 				},
 				mechanicTime = 88.8,
-				name = "Tactician",
+				name = "Dismantle",
+				timeRange = true,
 				timelineIndex = 16,
-				timerOffset = -14.89999961853,
-				uuid = "60e4a9d3-12b5-eb73-a512-8f7cae713d49",
+				timerEndOffset = -1,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9.8999996185303,
+				uuid = "5fb5844d-f333-4273-b6ce-e2bcde15f57d",
 				version = 2,
 			},
 		},
@@ -1262,35 +1251,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
-							uuid = "a102a23d-be95-0cdf-8393-121156a3c655",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 135.5,
-				name = "Dismantle",
-				timelineIndex = 24,
-				timerOffset = -9.8999996185303,
-				uuid = "ef1c6a2b-5489-8dfb-85ff-01d9062c0072",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_Oblation",
 							targetType = "Main Tank",
 							uuid = "fd9bae52-1d52-770c-aecc-4c51aedbabf5",
@@ -1502,6 +1462,20 @@ local tbl =
 		{
 			data = 
 			{
+				name = "Dismantle (10s) (120s)",
+				uuid = "9acf3356-2783-38cc-bd53-f3eb95004a32",
+				version = 2,
+			},
+			inheritedObjectUUID = "508cd983-6d99-9e46-8ccb-a03987e4fbe6",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -1627,35 +1601,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
-							uuid = "0158db04-8275-d735-8056-ebeebb29c18a",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 178.8,
-				name = "Tactician",
-				timelineIndex = 35,
-				timerOffset = -14.89999961853,
-				uuid = "dc7403be-3c6e-858e-82d7-3b6faa4486eb",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
 							uuid = "a2ba6da1-63de-8d22-964f-1d9ce8c38b9b",
 							variableTogglesType = 3,
@@ -1706,6 +1651,38 @@ local tbl =
 				timerOffset = -9.8999996185303,
 				timerStartOffset = -9.8999996185303,
 				uuid = "0155dc45-9abf-97c9-9bb6-e43d1a8da00e",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "6575373d-4b17-0424-a653-ed4ca1ced394",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 178.8,
+				name = "Tactician",
+				timeRange = true,
+				timelineIndex = 35,
+				timerEndOffset = -1,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14.89999961853,
+				uuid = "37b6dd81-2b5d-9f80-9172-86f8cfcf40e5",
 				version = 2,
 			},
 		},
@@ -1839,6 +1816,41 @@ local tbl =
 			},
 		},
 	},
+	[44] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "1aaafa2d-6235-ede3-b5f9-4e990a8cd8c9",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 220.8,
+				name = "Dismantle",
+				timeRange = true,
+				timelineIndex = 44,
+				timerEndOffset = -1,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9.8999996185303,
+				uuid = "9cd7873c-4978-292e-99d3-e209caf20f20",
+				version = 2,
+			},
+		},
+	},
 	[45] = 
 	{
 		
@@ -1894,6 +1906,23 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
+		},
+	},
+	[46] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "rDPS mitigation (15s) (90s)",
+				uuid = "58741561-e96c-b8df-8c8f-d8da47984a33",
+				version = 2,
+			},
+			inheritedObjectUUID = "be92543f-0ac9-f67b-9706-c88be63b0508",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
 		},
 	},
 	[47] = 
@@ -2525,35 +2554,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
-							uuid = "0158db04-8275-d735-8056-ebeebb29c18a",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 312.4,
-				name = "Tactician",
-				timelineIndex = 60,
-				timerOffset = -14.89999961853,
-				uuid = "58760cd0-1e92-ec97-9b0f-882a311c7c2c",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
 							uuid = "17059126-32a9-19e4-96ae-9e38ba28ff58",
 							variableTogglesType = 3,
@@ -2610,6 +2610,38 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "6575373d-4b17-0424-a653-ed4ca1ced394",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 312.4,
+				name = "Tactician",
+				timeRange = true,
+				timelineIndex = 60,
+				timerEndOffset = -1,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14.89999961853,
+				uuid = "f38ac789-baf6-902c-be63-78c89b81510b",
+				version = 2,
+			},
+		},
 	},
 	[63] = 
 	{
@@ -2650,31 +2682,13 @@ local tbl =
 			data = 
 			{
 				name = "Dismantle (10s) (120s)",
-				uuid = "5c1a8957-5bea-dd42-9d20-51ace448c60a",
+				uuid = "dc710dfa-fad2-2b40-862e-8bbb69f21d73",
 				version = 2,
 			},
 			inheritedObjectUUID = "6f3f6aa2-b6cc-dda4-bbe2-656aba4b22a4",
 			inheritedOverwrites = 
 			{
-				conditions = 
-				{
-					
-					{
-						position = 1,
-						type = "add",
-						value = 
-						{
-							data = 
-							{
-								name = "",
-								uuid = "b5f375ea-f301-9f81-9c2e-12efa9d753a6",
-								version = 2,
-							},
-							inheritedIndex = 1,
-							inheritedObjectUUID = "af5adbfd-d6c2-3087-92b4-75ec837f3a1d",
-						},
-					},
-				},
+				enabled = false,
 			},
 		},
 		
@@ -2860,6 +2874,38 @@ local tbl =
 				timerOffset = 2,
 				timerStartOffset = -6,
 				uuid = "f4d471f3-48b8-83e3-b677-cc25be991930",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "1aaafa2d-6235-ede3-b5f9-4e990a8cd8c9",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 333.2,
+				name = "Dismantle",
+				timeRange = true,
+				timelineIndex = 64,
+				timerEndOffset = -1,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9.8999996185303,
+				uuid = "ebf0638b-513d-8e7f-ad4e-c9765344b3d2",
 				version = 2,
 			},
 		},
@@ -3150,6 +3196,20 @@ local tbl =
 	},
 	[72] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "rDPS mitigation (15s) (90s)",
+				uuid = "5a0b1f74-3f72-d6a8-84de-bbda7a5b8dd4",
+				version = 2,
+			},
+			inheritedObjectUUID = "bc8fbc37-9cdc-175f-90b1-064e9f765236",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
 		
 		{
 			data = 
@@ -3657,6 +3717,20 @@ local tbl =
 		{
 			data = 
 			{
+				name = "Dismantle (10s) (120s)",
+				uuid = "4f6d8183-b048-0726-b729-f478a51d175b",
+				version = 2,
+			},
+			inheritedObjectUUID = "8d0c6341-0f2d-d00e-a18c-e1b0134a54cf",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
 				name = "Magick Barrier (10s) (120s)",
 				uuid = "44b3fd61-8370-c4d5-80ae-0fae7ceffb6c",
 				version = 2,
@@ -3801,23 +3875,73 @@ local tbl =
 				version = 2,
 			},
 		},
-	},
-	[88] = 
-	{
 		
 		{
 			data = 
 			{
-				name = "Magick Barrier (10s) (120s)",
-				uuid = "2184f781-ee64-2c21-83d6-e11bad630c23",
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "1aaafa2d-6235-ede3-b5f9-4e990a8cd8c9",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 450.5,
+				name = "Dismantle",
+				timeRange = true,
+				timelineIndex = 84,
+				timerEndOffset = -1,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9.8999996185303,
+				uuid = "763528de-6195-809f-b2d2-a2136ac524fe",
 				version = 2,
 			},
-			inheritedIndex = 1,
-			inheritedObjectUUID = "6c3a8c8d-49ed-1992-ac28-e4e6d435bba4",
-			inheritedOverwrites = 
+		},
+		
+		{
+			data = 
 			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "6575373d-4b17-0424-a653-ed4ca1ced394",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 450.5,
+				name = "Tactician",
+				timeRange = true,
+				timelineIndex = 84,
+				timerEndOffset = -1,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14.89999961853,
+				uuid = "69fe6792-14af-972b-884a-0844b7b35a67",
+				version = 2,
 			},
 		},
+	},
+	[88] = 
+	{
 		
 		{
 			data = 
@@ -3871,20 +3995,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
-		},
-		
-		{
-			data = 
-			{
-				name = "Dismantle (10s) (120s)",
-				uuid = "3469cc66-1850-e9b0-accb-5192fdfc4362",
-				version = 2,
-			},
-			inheritedIndex = 11,
-			inheritedObjectUUID = "a52f43d1-a751-30a8-8bd2-e56a189b63b6",
-			inheritedOverwrites = 
-			{
-			},
 		},
 		
 		{
@@ -4381,6 +4491,38 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "1aaafa2d-6235-ede3-b5f9-4e990a8cd8c9",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1040.8,
+				name = "Dismantle",
+				timeRange = true,
+				timelineIndex = 91,
+				timerEndOffset = -1,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9.8999996185303,
+				uuid = "aa9fad7b-ced2-a2b9-b56f-39310ccf07fe",
+				version = 2,
+			},
+		},
 	},
 	[92] = 
 	{
@@ -4487,6 +4629,20 @@ local tbl =
 	},
 	[98] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "rDPS mitigation (15s) (90s)",
+				uuid = "c7dc1a19-9134-a75a-b289-32988418b011",
+				version = 2,
+			},
+			inheritedObjectUUID = "b665cc6e-9818-d26a-a293-98d1da4bad05",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
 		
 		{
 			data = 
@@ -4737,6 +4893,38 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "6575373d-4b17-0424-a653-ed4ca1ced394",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1108.6,
+				name = "Tactician",
+				timeRange = true,
+				timelineIndex = 99,
+				timerEndOffset = -1,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14.89999961853,
+				uuid = "19df101a-cd51-382f-82ab-150be208a44b",
+				version = 2,
+			},
+		},
 	},
 	[100] = 
 	{
@@ -4879,6 +5067,20 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				name = "Dismantle (10s) (120s)",
+				uuid = "204ae3fe-9762-59dc-825e-1c4a59c914b9",
+				version = 2,
+			},
+			inheritedObjectUUID = "c779ddb1-773c-d042-836e-5f06973c906e",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
 		},
 		
 		{
@@ -5392,6 +5594,38 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "1aaafa2d-6235-ede3-b5f9-4e990a8cd8c9",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1173.2,
+				name = "Dismantle",
+				timeRange = true,
+				timelineIndex = 109,
+				timerEndOffset = -1,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9.8999996185303,
+				uuid = "fb9bdd8f-7004-192c-b55a-e9ad942ffe64",
+				version = 2,
+			},
+		},
 	},
 	[110] = 
 	{
@@ -5770,6 +6004,38 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "6575373d-4b17-0424-a653-ed4ca1ced394",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1226.8,
+				name = "Tactician",
+				timeRange = true,
+				timelineIndex = 116,
+				timerEndOffset = -1,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14.89999961853,
+				uuid = "1b87f707-2f3d-89e6-a442-5b76a4eae1c1",
+				version = 2,
+			},
+		},
 	},
 	[117] = 
 	{
@@ -5826,6 +6092,20 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				name = "rDPS mitigation (15s) (90s)",
+				uuid = "e2e6b329-f05d-1a9e-8618-91dfc419a00a",
+				version = 2,
+			},
+			inheritedObjectUUID = "36bb379d-56bc-02cb-8667-df86c00c0e68",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
 		},
 		
 		{
@@ -6343,6 +6623,38 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "1aaafa2d-6235-ede3-b5f9-4e990a8cd8c9",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1296.8,
+				name = "Dismantle",
+				timeRange = true,
+				timelineIndex = 124,
+				timerEndOffset = -1,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9.8999996185303,
+				uuid = "19e3e8af-bc74-c3e3-81c0-2472c29f0647",
+				version = 2,
+			},
+		},
 	},
 	[125] = 
 	{
@@ -6535,6 +6847,52 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				name = "Dismantle (10s) (120s)",
+				uuid = "5680a9df-d000-a5c7-9d4a-83aa699b0e86",
+				version = 2,
+			},
+			inheritedObjectUUID = "dc425e34-ae1a-1e15-a821-af2150bd23f3",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "6575373d-4b17-0424-a653-ed4ca1ced394",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1333.1,
+				name = "Tactician",
+				timeRange = true,
+				timelineIndex = 128,
+				timerEndOffset = -1,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14.89999961853,
+				uuid = "d355b8a1-bac3-2de1-b405-bde04628d4c4",
+				version = 2,
+			},
 		},
 	},
 	[132] = 
@@ -6914,6 +7272,20 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				name = "rDPS mitigation (15s) (90s)",
+				uuid = "40117da2-8e58-3998-8b95-ef916483004c",
+				version = 2,
+			},
+			inheritedObjectUUID = "b1f26d2a-42f4-e2fc-b71f-54af312b1df2",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
 		},
 		
 		{
@@ -7546,6 +7918,38 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Dismantle",
+							uuid = "1aaafa2d-6235-ede3-b5f9-4e990a8cd8c9",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1425.9,
+				name = "Dismantle",
+				timeRange = true,
+				timelineIndex = 149,
+				timerEndOffset = -1,
+				timerOffset = -9.8999996185303,
+				timerStartOffset = -9.8999996185303,
+				uuid = "950d5c10-19f0-21b1-9b6e-d1460eccf6f3",
+				version = 2,
+			},
+		},
 	},
 	[153] = 
 	{
@@ -7804,6 +8208,34 @@ local tbl =
 	},
 	[160] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "rDPS mitigation (15s) (90s)",
+				uuid = "dca888dd-12a9-21a2-9493-844a94f020a1",
+				version = 2,
+			},
+			inheritedObjectUUID = "fc45c0cd-2717-9617-b2d3-84af6f498004",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Dismantle (10s) (120s)",
+				uuid = "1b7b3420-0b10-089a-a0f5-d7b6f49fb1b7",
+				version = 2,
+			},
+			inheritedObjectUUID = "4f17d328-af32-e291-9692-7c8477bc0c52",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
 		
 		{
 			data = 
@@ -8166,10 +8598,42 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_TensorMagnum2_Hotbar_Tactician",
+							uuid = "6575373d-4b17-0424-a653-ed4ca1ced394",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1494.6,
+				name = "Tactician",
+				timeRange = true,
+				timelineIndex = 160,
+				timerEndOffset = -1,
+				timerOffset = -14.89999961853,
+				timerStartOffset = -14.89999961853,
+				uuid = "89a389a8-4c61-675d-9318-88a9009c937d",
+				version = 2,
+			},
+		},
 	},
 	inheritedProfiles = 
 	{
-		"anyone\\savage3\\p12s",
+		"store\\anyone\\savage3\\p12s",
 	},
 	mapID = 1154,
 	version = 3,
